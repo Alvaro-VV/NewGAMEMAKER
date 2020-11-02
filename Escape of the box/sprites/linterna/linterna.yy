@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 0,
+  "bbox_right": 449,
   "bbox_top": 0,
-  "bbox_bottom": 0,
+  "bbox_bottom": 449,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 450,
+  "height": 450,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ffb2aa49-b8f2-45cf-b1bf-ee353b22e249","path":"sprites/ojo/ojo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ffb2aa49-b8f2-45cf-b1bf-ee353b22e249","path":"sprites/ojo/ojo.yy",},"LayerId":{"name":"d333c82a-00bc-4186-b88a-6cbd31624855","path":"sprites/ojo/ojo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"ojo","path":"sprites/ojo/ojo.yy",},"resourceVersion":"1.0","name":"ffb2aa49-b8f2-45cf-b1bf-ee353b22e249","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2fde5b3c-a7c7-4d9e-b91f-5754599b25f6","path":"sprites/linterna/linterna.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2fde5b3c-a7c7-4d9e-b91f-5754599b25f6","path":"sprites/linterna/linterna.yy",},"LayerId":{"name":"9e0e1388-5de7-420d-896d-8e8a4af1c8df","path":"sprites/linterna/linterna.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"linterna","path":"sprites/linterna/linterna.yy",},"resourceVersion":"1.0","name":"2fde5b3c-a7c7-4d9e-b91f-5754599b25f6","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"ojo","path":"sprites/ojo/ojo.yy",},
+    "spriteId": {"name":"linterna","path":"sprites/linterna/linterna.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d9e9f23b-9835-4685-b2ee-9fef16c6757f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ffb2aa49-b8f2-45cf-b1bf-ee353b22e249","path":"sprites/ojo/ojo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d9889c66-fdd5-48d2-90c7-bca7a707a08a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2fde5b3c-a7c7-4d9e-b91f-5754599b25f6","path":"sprites/linterna/linterna.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"ojo","path":"sprites/ojo/ojo.yy",},
+    "parent": {"name":"linterna","path":"sprites/linterna/linterna.yy",},
     "resourceVersion": "1.3",
-    "name": "ojo",
+    "name": "linterna",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d333c82a-00bc-4186-b88a-6cbd31624855","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9e0e1388-5de7-420d-896d-8e8a4af1c8df","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "objetos",
+    "path": "folders/Sprites/objetos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ojo",
+  "name": "linterna",
   "tags": [],
   "resourceType": "GMSprite",
 }
