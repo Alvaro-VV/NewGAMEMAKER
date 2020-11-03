@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite59",
-    "path": "sprites/Sprite59/Sprite59.yy",
+    "name": "tarjeta",
+    "path": "sprites/tarjeta/tarjeta.yy",
   },
   "solid": false,
   "visible": true,
