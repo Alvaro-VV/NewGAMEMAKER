@@ -4,6 +4,8 @@
 k_a= keyboard_check( ord("A"));
 k_left= keyboard_check(vk_left);
 
+b= keyboard_check( ord("B"));
+
 
 k_d= keyboard_check( ord("D"));
 k_right= keyboard_check(vk_right);

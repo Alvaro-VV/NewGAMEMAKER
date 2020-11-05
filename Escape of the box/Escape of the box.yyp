@@ -100,6 +100,7 @@
     {"id":{"name":"Sprite69","path":"sprites/Sprite69/Sprite69.yy",},"order":7,},
     {"id":{"name":"_475","path":"sprites/_475/_475.yy",},"order":0,},
     {"id":{"name":"Sprite21","path":"sprites/Sprite21/Sprite21.yy",},"order":4,},
+    {"id":{"name":"Vida","path":"sprites/Vida/Vida.yy",},"order":0,},
     {"id":{"name":"bajoarboliz","path":"objects/bajoarboliz/bajoarboliz.yy",},"order":5,},
     {"id":{"name":"boosKey","path":"sprites/boosKey/boosKey.yy",},"order":8,},
     {"id":{"name":"Sprite68","path":"sprites/Sprite68/Sprite68.yy",},"order":3,},
@@ -182,6 +183,7 @@
     {"folderPath":"folders/Sprites/mapa/bosque/bosquefuna.yy","order":15,"resourceVersion":"1.0","name":"bosquefuna","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/mapa/cosasNuevas.yy","order":22,"resourceVersion":"1.0","name":"cosasNuevas","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/objetos.yy","order":2,"resourceVersion":"1.0","name":"objetos","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/HUD.yy","order":3,"resourceVersion":"1.0","name":"HUD","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
