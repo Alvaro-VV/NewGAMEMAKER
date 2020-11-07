@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 301,
-  "bbox_top": 0,
-  "bbox_bottom": 344,
+  "bbox_right": 599,
+  "bbox_top": 138,
+  "bbox_bottom": 615,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 302,
-  "height": 345,
+  "width": 600,
+  "height": 620,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6e16353a-e165-4b5a-9a4e-8e19d5f31f67","path":"sprites/Sprite71/Sprite71.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6e16353a-e165-4b5a-9a4e-8e19d5f31f67","path":"sprites/Sprite71/Sprite71.yy",},"LayerId":{"name":"2efba751-8c29-4ced-8002-8d6dcf85ae39","path":"sprites/Sprite71/Sprite71.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite71","path":"sprites/Sprite71/Sprite71.yy",},"resourceVersion":"1.0","name":"6e16353a-e165-4b5a-9a4e-8e19d5f31f67","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"64309ac5-88da-4baa-a2f1-9d4007aa2df6","path":"sprites/Mouse/Mouse.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"64309ac5-88da-4baa-a2f1-9d4007aa2df6","path":"sprites/Mouse/Mouse.yy",},"LayerId":{"name":"a00a229b-540f-4e16-9023-9aaf5772f2a3","path":"sprites/Mouse/Mouse.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Mouse","path":"sprites/Mouse/Mouse.yy",},"resourceVersion":"1.0","name":"64309ac5-88da-4baa-a2f1-9d4007aa2df6","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Sprite71","path":"sprites/Sprite71/Sprite71.yy",},
+    "spriteId": {"name":"Mouse","path":"sprites/Mouse/Mouse.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"9f61c350-f52b-4a8c-8239-3304686e98e7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6e16353a-e165-4b5a-9a4e-8e19d5f31f67","path":"sprites/Sprite71/Sprite71.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ff7bdcb8-5f58-4a15-b837-2e33dedd70a1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"64309ac5-88da-4baa-a2f1-9d4007aa2df6","path":"sprites/Mouse/Mouse.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Sprite71","path":"sprites/Sprite71/Sprite71.yy",},
+    "parent": {"name":"Mouse","path":"sprites/Mouse/Mouse.yy",},
     "resourceVersion": "1.3",
-    "name": "Sprite71",
+    "name": "Mouse",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2efba751-8c29-4ced-8002-8d6dcf85ae39","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a00a229b-540f-4e16-9023-9aaf5772f2a3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "objetos",
     "path": "folders/Sprites/objetos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Sprite71",
+  "name": "Mouse",
   "tags": [],
   "resourceType": "GMSprite",
 }

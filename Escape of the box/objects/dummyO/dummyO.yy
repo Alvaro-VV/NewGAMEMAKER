@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite62",
-    "path": "sprites/Sprite62/Sprite62.yy",
+    "name": "sacoBoxeo",
+    "path": "sprites/sacoBoxeo/sacoBoxeo.yy",
   },
   "solid": false,
   "visible": true,
