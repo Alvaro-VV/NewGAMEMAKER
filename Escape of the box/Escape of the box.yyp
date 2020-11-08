@@ -24,6 +24,7 @@
     {"id":{"name":"pendrive","path":"sprites/pendrive/pendrive.yy",},"order":12,},
     {"id":{"name":"puertaV","path":"objects/puertaV/puertaV.yy",},"order":3,},
     {"id":{"name":"sacoBoxeo","path":"sprites/sacoBoxeo/sacoBoxeo.yy",},"order":3,},
+    {"id":{"name":"OBJETOPRUEBA3","path":"objects/OBJETOPRUEBA3/OBJETOPRUEBA3.yy",},"order":9,},
     {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},"order":6,},
     {"id":{"name":"Puertamagenta","path":"objects/Puertamagenta/Puertamagenta.yy",},"order":5,},
     {"id":{"name":"medioArbol","path":"objects/medioArbol/medioArbol.yy",},"order":7,},
@@ -33,6 +34,7 @@
     {"id":{"name":"Laboratorio_Room","path":"rooms/Laboratorio_Room/Laboratorio_Room.yy",},"order":1,},
     {"id":{"name":"esquina","path":"objects/esquina/esquina.yy",},"order":0,},
     {"id":{"name":"pist3","path":"objects/pist3/pist3.yy",},"order":7,},
+    {"id":{"name":"SALAPRUEBA1","path":"rooms/SALAPRUEBA1/SALAPRUEBA1.yy",},"order":9,},
     {"id":{"name":"Mouse","path":"sprites/Mouse/Mouse.yy",},"order":10,},
     {"id":{"name":"Sprite70","path":"sprites/Sprite70/Sprite70.yy",},"order":8,},
     {"id":{"name":"aguadeLadito","path":"sprites/aguadeLadito/aguadeLadito.yy",},"order":18,},
@@ -152,6 +154,7 @@
     {"name":"miniCueva","path":"rooms/miniCueva/miniCueva.yy",},
     {"name":"ZonaVirus_Room","path":"rooms/ZonaVirus_Room/ZonaVirus_Room.yy",},
     {"name":"LaboratorioSub_Room","path":"rooms/LaboratorioSub_Room/LaboratorioSub_Room.yy",},
+    {"name":"SALAPRUEBA1","path":"rooms/SALAPRUEBA1/SALAPRUEBA1.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
