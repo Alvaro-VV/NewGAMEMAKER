@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 521,
-  "bbox_top": 0,
-  "bbox_bottom": 366,
+  "bbox_right": 599,
+  "bbox_top": 138,
+  "bbox_bottom": 615,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 32,
+  "width": 600,
+  "height": 620,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"394af290-9dc6-4133-b2c3-352cd6e07082","path":"sprites/tarjeta/tarjeta.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"394af290-9dc6-4133-b2c3-352cd6e07082","path":"sprites/tarjeta/tarjeta.yy",},"LayerId":{"name":"b29f4dab-a612-4007-8a49-3daef923893b","path":"sprites/tarjeta/tarjeta.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"tarjeta","path":"sprites/tarjeta/tarjeta.yy",},"resourceVersion":"1.0","name":"394af290-9dc6-4133-b2c3-352cd6e07082","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"64309ac5-88da-4baa-a2f1-9d4007aa2df6","path":"sprites/Mouse_sprt/Mouse_sprt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"64309ac5-88da-4baa-a2f1-9d4007aa2df6","path":"sprites/Mouse_sprt/Mouse_sprt.yy",},"LayerId":{"name":"a00a229b-540f-4e16-9023-9aaf5772f2a3","path":"sprites/Mouse_sprt/Mouse_sprt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Mouse_sprt","path":"sprites/Mouse_sprt/Mouse_sprt.yy",},"resourceVersion":"1.0","name":"64309ac5-88da-4baa-a2f1-9d4007aa2df6","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"tarjeta","path":"sprites/tarjeta/tarjeta.yy",},
+    "spriteId": {"name":"Mouse_sprt","path":"sprites/Mouse_sprt/Mouse_sprt.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"69d5bee5-fa1a-4b52-b94e-18b526d30b81","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"394af290-9dc6-4133-b2c3-352cd6e07082","path":"sprites/tarjeta/tarjeta.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ff7bdcb8-5f58-4a15-b837-2e33dedd70a1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"64309ac5-88da-4baa-a2f1-9d4007aa2df6","path":"sprites/Mouse_sprt/Mouse_sprt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"tarjeta","path":"sprites/tarjeta/tarjeta.yy",},
+    "parent": {"name":"Mouse_sprt","path":"sprites/Mouse_sprt/Mouse_sprt.yy",},
     "resourceVersion": "1.3",
-    "name": "tarjeta",
+    "name": "Mouse_sprt",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b29f4dab-a612-4007-8a49-3daef923893b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a00a229b-540f-4e16-9023-9aaf5772f2a3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "objetos",
     "path": "folders/Sprites/objetos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "tarjeta",
+  "name": "Mouse_sprt",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 899,
-  "bbox_top": 0,
-  "bbox_bottom": 599,
+  "bbox_left": 72,
+  "bbox_right": 180,
+  "bbox_top": 64,
+  "bbox_bottom": 190,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 900,
-  "height": 600,
+  "width": 260,
+  "height": 280,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b8d402cf-4377-4ab7-abac-541e34a8136e","path":"sprites/mascarilla/mascarilla.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b8d402cf-4377-4ab7-abac-541e34a8136e","path":"sprites/mascarilla/mascarilla.yy",},"LayerId":{"name":"74c3afba-975c-492c-bb60-f9b32ffffe26","path":"sprites/mascarilla/mascarilla.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"mascarilla","path":"sprites/mascarilla/mascarilla.yy",},"resourceVersion":"1.0","name":"b8d402cf-4377-4ab7-abac-541e34a8136e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"137e54c7-d711-45f1-920a-ff1381155f24","path":"sprites/alcoholGel_sprt/alcoholGel_sprt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"137e54c7-d711-45f1-920a-ff1381155f24","path":"sprites/alcoholGel_sprt/alcoholGel_sprt.yy",},"LayerId":{"name":"781409bc-681b-4bc9-ae0a-5d0a97d70c23","path":"sprites/alcoholGel_sprt/alcoholGel_sprt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"alcoholGel_sprt","path":"sprites/alcoholGel_sprt/alcoholGel_sprt.yy",},"resourceVersion":"1.0","name":"137e54c7-d711-45f1-920a-ff1381155f24","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"mascarilla","path":"sprites/mascarilla/mascarilla.yy",},
+    "spriteId": {"name":"alcoholGel_sprt","path":"sprites/alcoholGel_sprt/alcoholGel_sprt.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ecff0e3a-bb56-4ed8-922c-bdb7ee2622b8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b8d402cf-4377-4ab7-abac-541e34a8136e","path":"sprites/mascarilla/mascarilla.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e0ce050f-64fa-43d0-8734-4ee65bfbc269","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"137e54c7-d711-45f1-920a-ff1381155f24","path":"sprites/alcoholGel_sprt/alcoholGel_sprt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"mascarilla","path":"sprites/mascarilla/mascarilla.yy",},
+    "parent": {"name":"alcoholGel_sprt","path":"sprites/alcoholGel_sprt/alcoholGel_sprt.yy",},
     "resourceVersion": "1.3",
-    "name": "mascarilla",
+    "name": "alcoholGel_sprt",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"74c3afba-975c-492c-bb60-f9b32ffffe26","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"781409bc-681b-4bc9-ae0a-5d0a97d70c23","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "objetos",
     "path": "folders/Sprites/objetos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "mascarilla",
+  "name": "alcoholGel_sprt",
   "tags": [],
   "resourceType": "GMSprite",
 }

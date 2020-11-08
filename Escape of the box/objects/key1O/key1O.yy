@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "tarjeta",
-    "path": "sprites/tarjeta/tarjeta.yy",
+    "name": "tarjeta_sprt",
+    "path": "sprites/tarjeta_sprt/tarjeta_sprt.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "objetos_Obtener",
+    "path": "folders/Objetos/objetos_Obtener.yy",
   },
   "resourceVersion": "1.0",
   "name": "key1O",

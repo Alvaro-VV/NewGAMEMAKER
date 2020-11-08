@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 340,
-  "bbox_top": 0,
-  "bbox_bottom": 118,
+  "bbox_left": 255,
+  "bbox_right": 574,
+  "bbox_top": 20,
+  "bbox_bottom": 649,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 341,
-  "height": 119,
+  "width": 910,
+  "height": 700,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2fa97882-8465-41c1-80c1-b404eb3d1aaf","path":"sprites/pendrive/pendrive.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2fa97882-8465-41c1-80c1-b404eb3d1aaf","path":"sprites/pendrive/pendrive.yy",},"LayerId":{"name":"4dc8a33c-34de-41b4-a5e0-26fc9c48aa5c","path":"sprites/pendrive/pendrive.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"pendrive","path":"sprites/pendrive/pendrive.yy",},"resourceVersion":"1.0","name":"2fa97882-8465-41c1-80c1-b404eb3d1aaf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"53cfad7f-b560-4737-9466-b451502598cf","path":"sprites/celular_sprt/celular_sprt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"53cfad7f-b560-4737-9466-b451502598cf","path":"sprites/celular_sprt/celular_sprt.yy",},"LayerId":{"name":"5baa36ce-95b1-4c27-bf07-cee9158d224f","path":"sprites/celular_sprt/celular_sprt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"celular_sprt","path":"sprites/celular_sprt/celular_sprt.yy",},"resourceVersion":"1.0","name":"53cfad7f-b560-4737-9466-b451502598cf","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"pendrive","path":"sprites/pendrive/pendrive.yy",},
+    "spriteId": {"name":"celular_sprt","path":"sprites/celular_sprt/celular_sprt.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"85fe3983-920e-48da-855b-9d5eafd751af","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2fa97882-8465-41c1-80c1-b404eb3d1aaf","path":"sprites/pendrive/pendrive.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bef72cb7-44e4-4a6e-b31d-68fe216e8d51","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"53cfad7f-b560-4737-9466-b451502598cf","path":"sprites/celular_sprt/celular_sprt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"pendrive","path":"sprites/pendrive/pendrive.yy",},
+    "parent": {"name":"celular_sprt","path":"sprites/celular_sprt/celular_sprt.yy",},
     "resourceVersion": "1.3",
-    "name": "pendrive",
+    "name": "celular_sprt",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4dc8a33c-34de-41b4-a5e0-26fc9c48aa5c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5baa36ce-95b1-4c27-bf07-cee9158d224f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "objetos",
     "path": "folders/Sprites/objetos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "pendrive",
+  "name": "celular_sprt",
   "tags": [],
   "resourceType": "GMSprite",
 }
