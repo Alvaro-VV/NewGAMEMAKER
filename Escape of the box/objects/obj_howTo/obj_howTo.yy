@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sacoBoxeo",
-    "path": "sprites/sacoBoxeo/sacoBoxeo.yy",
+    "name": "howTo_sprt",
+    "path": "sprites/howTo_sprt/howTo_sprt.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"dummyO","path":"objects/dummyO/dummyO.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "cosasDemas",
-    "path": "folders/Objetos/cosasDemas.yy",
+    "name": "objetos_Obtener",
+    "path": "folders/Objetos/objetos_Obtener.yy",
   },
   "resourceVersion": "1.0",
-  "name": "dummyO",
+  "name": "obj_howTo",
   "tags": [],
   "resourceType": "GMObject",
 }

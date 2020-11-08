@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e5da90d4-d4a7-4d17-be33-e9c22cfb3502","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "objetos",
-    "path": "folders/Sprites/objetos.yy",
+    "name": "HUD",
+    "path": "folders/Sprites/HUD.yy",
   },
   "resourceVersion": "1.0",
   "name": "sacoBoxeo",
