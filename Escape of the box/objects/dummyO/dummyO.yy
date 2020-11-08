@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "cosasDemas",
-    "path": "folders/Objetos/cosasDemas.yy",
+    "name": "Objetos",
+    "path": "folders/Objetos.yy",
   },
   "resourceVersion": "1.0",
   "name": "dummyO",
