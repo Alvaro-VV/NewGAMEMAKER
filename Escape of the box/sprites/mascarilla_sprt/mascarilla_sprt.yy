@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 80,
-  "bbox_right": 703,
-  "bbox_top": 80,
-  "bbox_bottom": 671,
+  "bbox_left": 0,
+  "bbox_right": 899,
+  "bbox_top": 0,
+  "bbox_bottom": 599,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 800,
-  "height": 800,
+  "width": 900,
+  "height": 600,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9b456ca2-7433-4823-b837-abfb932953d6","path":"sprites/jeringa/jeringa.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9b456ca2-7433-4823-b837-abfb932953d6","path":"sprites/jeringa/jeringa.yy",},"LayerId":{"name":"8a020a0c-0699-48e9-aeb9-a2c47bee507a","path":"sprites/jeringa/jeringa.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"jeringa","path":"sprites/jeringa/jeringa.yy",},"resourceVersion":"1.0","name":"9b456ca2-7433-4823-b837-abfb932953d6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b8d402cf-4377-4ab7-abac-541e34a8136e","path":"sprites/mascarilla_sprt/mascarilla_sprt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b8d402cf-4377-4ab7-abac-541e34a8136e","path":"sprites/mascarilla_sprt/mascarilla_sprt.yy",},"LayerId":{"name":"74c3afba-975c-492c-bb60-f9b32ffffe26","path":"sprites/mascarilla_sprt/mascarilla_sprt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"mascarilla_sprt","path":"sprites/mascarilla_sprt/mascarilla_sprt.yy",},"resourceVersion":"1.0","name":"b8d402cf-4377-4ab7-abac-541e34a8136e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"jeringa","path":"sprites/jeringa/jeringa.yy",},
+    "spriteId": {"name":"mascarilla_sprt","path":"sprites/mascarilla_sprt/mascarilla_sprt.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0d97d60d-9cba-4fae-8841-b21e1148a875","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9b456ca2-7433-4823-b837-abfb932953d6","path":"sprites/jeringa/jeringa.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ecff0e3a-bb56-4ed8-922c-bdb7ee2622b8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b8d402cf-4377-4ab7-abac-541e34a8136e","path":"sprites/mascarilla_sprt/mascarilla_sprt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"jeringa","path":"sprites/jeringa/jeringa.yy",},
+    "parent": {"name":"mascarilla_sprt","path":"sprites/mascarilla_sprt/mascarilla_sprt.yy",},
     "resourceVersion": "1.3",
-    "name": "jeringa",
+    "name": "mascarilla_sprt",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8a020a0c-0699-48e9-aeb9-a2c47bee507a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"74c3afba-975c-492c-bb60-f9b32ffffe26","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "objetos",
     "path": "folders/Sprites/objetos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "jeringa",
+  "name": "mascarilla_sprt",
   "tags": [],
   "resourceType": "GMSprite",
 }
