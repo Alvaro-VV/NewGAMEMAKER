@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "objetos_Obtener",
+    "path": "folders/Objetos/objetos_Obtener.yy",
   },
   "resourceVersion": "1.0",
   "name": "key1O",
