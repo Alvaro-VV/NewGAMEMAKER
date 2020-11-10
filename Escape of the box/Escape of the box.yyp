@@ -32,6 +32,7 @@
     {"id":{"name":"obj_mouse","path":"objects/obj_mouse/obj_mouse.yy",},"order":7,},
     {"id":{"name":"medioArbol","path":"objects/medioArbol/medioArbol.yy",},"order":7,},
     {"id":{"name":"awadelado","path":"sprites/awadelado/awadelado.yy",},"order":10,},
+    {"id":{"name":"HUD","path":"objects/HUD/HUD.yy",},"order":10,},
     {"id":{"name":"obj_alcoholGel","path":"objects/obj_alcoholGel/obj_alcoholGel.yy",},"order":0,},
     {"id":{"name":"palanca_sprt","path":"sprites/palanca_sprt/palanca_sprt.yy",},"order":11,},
     {"id":{"name":"pist22","path":"objects/pist22/pist22.yy",},"order":6,},
