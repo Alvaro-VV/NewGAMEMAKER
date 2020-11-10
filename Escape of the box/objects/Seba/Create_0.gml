@@ -3,7 +3,6 @@
 vida=3;
 global.mira="default";
 alarm[0]=4;
-
 //OBJETOS
 alcoholGel=false;
 llaveJefe=false;
