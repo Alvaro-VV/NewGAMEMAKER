@@ -1,4 +1,3 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-vida=vida-1;
-//eliminar esto
+draw_sprite_ext(Vida, 0, )

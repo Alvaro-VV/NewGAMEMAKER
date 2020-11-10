@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a757a89c-c2bc-46f6-9ffe-499713a84286","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "mapa",
-    "path": "folders/Sprites/mapa.yy",
+    "name": "Laboratorio_S",
+    "path": "folders/Sprites/mapa/Laboratorio_S.yy",
   },
   "resourceVersion": "1.0",
   "name": "escalera",
