@@ -4,9 +4,6 @@
 k_a= keyboard_check( ord("A"));
 k_left= keyboard_check(vk_left);
 
-b= keyboard_check( ord("B"));
-
-
 k_d= keyboard_check( ord("D"));
 k_right= keyboard_check(vk_right);
 
@@ -17,68 +14,68 @@ k_s= keyboard_check( ord("S"));
 k_down= keyboard_check(vk_down);
 
 k_ataque= keyboard_check_pressed(vk_space);
-mov=5;
 #endregion
 
 #region control de movimiento
-if(k_a or k_left)
+if((k_a or k_left) and global.podermover == true)
 {
 	image_xscale=-1;
 	sprite_index= right;
 	image_speed=1;
-	x=x-mov;
+	x=x-global.mov;
 	global.mira="left";
 }
-else if(k_d or k_right)
+else if((k_d or k_right) and global.podermover == true)
 {
 	image_xscale=1;
 	sprite_index=right;
-	x=x+mov;
+	x=x+global.mov;
 	image_speed=1;
 	global.mira="right";
 }
-else if(k_w or k_up)
+else if((k_w or k_up) and global.podermover == true)
 {
 	sprite_index=up;
-	y=y-mov;
+	y=y-global.mov;
 	image_speed=1;
 	global.mira="up";
 }
-else if(k_down or k_s)
+else if((k_down or k_s) and global.podermover == true)
 {
 	image_yscale=1;
 	sprite_index=down;
-	y=y+mov;
+	y=y+global.mov;
 	image_speed=1;
 	global.mira="down";
 }
-else if(keyboard_check_released(ord("A")) or keyboard_check_released(vk_left))
+else if(keyboard_check_released(ord("A")) or keyboard_check_released(vk_left) and global.podermover == true)
 {
 	image_xscale=-1;
 	sprite_index=stop_r;
 	image_speed=1;
 	
 }
-else if(keyboard_check_released(ord("D")) or keyboard_check_released(vk_right))
+else if(keyboard_check_released(ord("D")) or keyboard_check_released(vk_right) and global.podermover == true)
 {
 	image_xscale=1;
 	sprite_index=stop_r;
 	image_speed=1;
 }
-else if(keyboard_check_released(ord("S")) or keyboard_check_released(vk_down) )
+else if(keyboard_check_released(ord("W")) or keyboard_check_released(vk_up) and global.podermover == true)
+{
+	image_speed=0;	
+}
+else if(keyboard_check_released(ord("S")) or keyboard_check_released(vk_down) and global.podermover == true)
 {
 	sprite_index= idle;	
 	image_speed=1;
-}
-else if((keyboard_check_released(ord("W")) or keyboard_check_released(vk_up)))
-{
-	image_speed=0;	
 }
 #endregion
 
 #region pegar
 if k_ataque
 {
+	global.podermover = false;
 	switch (global.mira)
 	{
 		case "up":
