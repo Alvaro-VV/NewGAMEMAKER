@@ -4,6 +4,7 @@ vida=3;
 global.mira="default";
 alarm[0]=4;
 //OBJETOS
+global.key1O=false;
 global.alcoholGel=false;
 global.bossKey=false;
 global.celular=false;
@@ -14,4 +15,3 @@ global.mascarilla=false;
 global.mouse=false;
 global.palanca=false;
 global.pendrive=false;
-global.tarjeta=false;
