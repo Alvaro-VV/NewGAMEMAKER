@@ -95,3 +95,6 @@ if k_ataque
 }
 #endregion
 
+#region // lineas
+
+#endregion

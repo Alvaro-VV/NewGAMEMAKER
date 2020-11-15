@@ -1,3 +1,3 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-k_ataque = false;
+draw_circle(x,y,200,true);

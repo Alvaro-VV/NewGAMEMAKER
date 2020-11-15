@@ -14,6 +14,7 @@
     {"id":{"name":"ZonaVirus_Room","path":"rooms/ZonaVirus_Room/ZonaVirus_Room.yy",},"order":7,},
     {"id":{"name":"ZonaBoos_Room","path":"rooms/ZonaBoos_Room/ZonaBoos_Room.yy",},"order":4,},
     {"id":{"name":"BosqueFunas_Room","path":"rooms/BosqueFunas_Room/BosqueFunas_Room.yy",},"order":5,},
+    {"id":{"name":"vision","path":"scripts/vision/vision.yy",},"order":1,},
     {"id":{"name":"pist2","path":"objects/pist2/pist2.yy",},"order":4,},
     {"id":{"name":"Arbol_Rojo","path":"objects/Arbol_Rojo/Arbol_Rojo.yy",},"order":3,},
     {"id":{"name":"Sprite45","path":"sprites/Sprite45/Sprite45.yy",},"order":12,},
