@@ -12,4 +12,4 @@ if place_meeting(x,y,golpe)
 {
 	invul = current_time;
 }
-vision();
+vision(xorigen,yorigen);
