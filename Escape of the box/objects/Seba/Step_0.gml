@@ -13,7 +13,11 @@ k_up= keyboard_check(vk_up);
 k_s= keyboard_check( ord("S"));
 k_down= keyboard_check(vk_down);
 
-k_ataque= keyboard_check_pressed(vk_space);
+if poderpegar
+{
+	k_ataque= keyboard_check_pressed(vk_space);
+}
+
 #endregion
 
 #region control de movimiento
@@ -73,9 +77,11 @@ else if(keyboard_check_released(ord("S")) or keyboard_check_released(vk_down) an
 #endregion
 
 #region pegar
-if k_ataque
+if k_ataque and poderpegar
 {
 	global.podermover = false;
+	poderpegar = false;
+	alarm[0]=50;
 	switch (global.mira)
 	{
 		case "up":
