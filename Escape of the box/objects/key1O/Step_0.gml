@@ -17,3 +17,9 @@ if arriba==true
 {
 	y+=0.5;
 }
+
+//DESAPARECER
+if(global.key1O)
+{
+	instance_destroy();
+}
