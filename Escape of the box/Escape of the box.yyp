@@ -18,6 +18,7 @@
     {"id":{"name":"BosqueFunas_Room","path":"rooms/BosqueFunas_Room/BosqueFunas_Room.yy",},"order":5,},
     {"id":{"name":"pist2","path":"objects/pist2/pist2.yy",},"order":4,},
     {"id":{"name":"Arbol_Rojo","path":"objects/Arbol_Rojo/Arbol_Rojo.yy",},"order":3,},
+    {"id":{"name":"Casa_Zona5G","path":"rooms/Casa_Zona5G/Casa_Zona5G.yy",},"order":10,},
     {"id":{"name":"Sprite45","path":"sprites/Sprite45/Sprite45.yy",},"order":12,},
     {"id":{"name":"sprite4","path":"sprites/sprite4/sprite4.yy",},"order":5,},
     {"id":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},"order":2,},
@@ -169,6 +170,7 @@
     {"name":"BosqueFunas_Room","path":"rooms/BosqueFunas_Room/BosqueFunas_Room.yy",},
     {"name":"miniCueva","path":"rooms/miniCueva/miniCueva.yy",},
     {"name":"ZonaVirus_Room","path":"rooms/ZonaVirus_Room/ZonaVirus_Room.yy",},
+    {"name":"Casa_Zona5G","path":"rooms/Casa_Zona5G/Casa_Zona5G.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
