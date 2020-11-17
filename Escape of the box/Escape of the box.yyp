@@ -122,6 +122,7 @@
     {"id":{"name":"_475","path":"sprites/_475/_475.yy",},"order":0,},
     {"id":{"name":"Sprite21","path":"sprites/Sprite21/Sprite21.yy",},"order":4,},
     {"id":{"name":"Vida","path":"sprites/Vida/Vida.yy",},"order":0,},
+    {"id":{"name":"Sprite87","path":"sprites/Sprite87/Sprite87.yy",},"order":5,},
     {"id":{"name":"bajoarboliz","path":"objects/bajoarboliz/bajoarboliz.yy",},"order":5,},
     {"id":{"name":"bossKey_sprt","path":"sprites/bossKey_sprt/bossKey_sprt.yy",},"order":8,},
     {"id":{"name":"Sprite68","path":"sprites/Sprite68/Sprite68.yy",},"order":3,},
@@ -171,9 +172,9 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"Room1","path":"rooms/Room1/Room1.yy",},
     {"name":"Principal","path":"rooms/Principal/Principal.yy",},
     {"name":"Historia","path":"rooms/Historia/Historia.yy",},
+    {"name":"Room1","path":"rooms/Room1/Room1.yy",},
     {"name":"Laboratorio_Room","path":"rooms/Laboratorio_Room/Laboratorio_Room.yy",},
     {"name":"Zona_5G_Room","path":"rooms/Zona_5G_Room/Zona_5G_Room.yy",},
     {"name":"PasoBosque_Room","path":"rooms/PasoBosque_Room/PasoBosque_Room.yy",},
