@@ -1,3 +1,5 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-alarm[0]=25;
+invul = 0;
+xorigen = x;
+yorigen = y;
