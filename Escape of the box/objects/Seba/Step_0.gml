@@ -1,5 +1,3 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
 #region valores
 k_a= keyboard_check( ord("A"));
 k_left= keyboard_check(vk_left);
@@ -99,8 +97,4 @@ if k_ataque and poderpegar
 		default: break;
 	}
 }
-#endregion
-
-#region // lineas
-
 #endregion
