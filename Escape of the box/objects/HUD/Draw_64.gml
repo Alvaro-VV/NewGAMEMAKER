@@ -1,22 +1,5 @@
-//HUD DE LA VIDA DEL JUGADOR
-if(Seba.vida==3)
-{
-	draw_sprite(Vida,0,70,30);
-}
-else if(Seba.vida==2)
-{
-	draw_sprite(Vida,1,50,50);
-}
-else if(Seba.vida==1)
-{
-	draw_sprite(Vida,2,50,50);
-}
-else if(Seba.vida==0)
-{
-	draw_sprite(Vida,3,50,50);//NO CONTIENE NADA LA IMAGEN
-}
-
-
+/// @description Inserte aquí la descripción
+// Puede escribir su código en este editor
 if(global.Inventario == true)
 {
 	//INVENTARIO
@@ -81,6 +64,8 @@ if(global.Inventario == true)
 		if(global.pendrive)
 		{
 			draw_sprite(pendrive_sprt,0,550,305);
-		}		
+		}
+		
+		
+		
 }
-
