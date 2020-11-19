@@ -2,14 +2,17 @@
 // Puede escribir su código en este edit
 vida=3;
 global.mira="default";
-alarm[0]=4;
+global.mov=5;
+global.podermover = true;
+k_ataque = keyboard_check_pressed(vk_space);
+poderpegar = true;
 //OBJETOS
 global.alcoholGel=false;
 global.bossKey=false;
 global.celular=false;
 global.howTo=false;
 global.Jeringa=false;
-global.linterna=false;
+global.linterna=false; //LISTO
 global.mascarilla=false;
 global.mouse=false;
 global.palanca=false;
