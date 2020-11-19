@@ -1,2 +1,0 @@
-//NO PASA PAREDES
-
