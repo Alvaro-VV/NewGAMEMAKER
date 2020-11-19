@@ -1,0 +1,2 @@
+
+global.Inventario= false;
