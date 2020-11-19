@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 63,
-  "bbox_top": 0,
-  "bbox_bottom": 65,
+  "bbox_right": 52,
+  "bbox_top": 1,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 66,
+  "width": 54,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9a81941e-a8b2-4f4c-96a0-eb76416aac98","path":"sprites/palanca_fondo/palanca_fondo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9a81941e-a8b2-4f4c-96a0-eb76416aac98","path":"sprites/palanca_fondo/palanca_fondo.yy",},"LayerId":{"name":"6c0c053c-3e5b-4498-8033-24cbf4055810","path":"sprites/palanca_fondo/palanca_fondo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"palanca_fondo","path":"sprites/palanca_fondo/palanca_fondo.yy",},"resourceVersion":"1.0","name":"9a81941e-a8b2-4f4c-96a0-eb76416aac98","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d5fd9b83-ac69-499e-a32a-52c2d3667b58","path":"sprites/alcohol_fondo/alcohol_fondo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d5fd9b83-ac69-499e-a32a-52c2d3667b58","path":"sprites/alcohol_fondo/alcohol_fondo.yy",},"LayerId":{"name":"374e8c90-5268-4bfa-8e56-f4f8c469c2a9","path":"sprites/alcohol_fondo/alcohol_fondo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"alcohol_fondo","path":"sprites/alcohol_fondo/alcohol_fondo.yy",},"resourceVersion":"1.0","name":"d5fd9b83-ac69-499e-a32a-52c2d3667b58","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"palanca_fondo","path":"sprites/palanca_fondo/palanca_fondo.yy",},
+    "spriteId": {"name":"alcohol_fondo","path":"sprites/alcohol_fondo/alcohol_fondo.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ea09b535-9153-48d0-acef-ddc86a86cb5d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9a81941e-a8b2-4f4c-96a0-eb76416aac98","path":"sprites/palanca_fondo/palanca_fondo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"72c42a6c-39aa-438a-b589-bbc8d1a082da","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d5fd9b83-ac69-499e-a32a-52c2d3667b58","path":"sprites/alcohol_fondo/alcohol_fondo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"palanca_fondo","path":"sprites/palanca_fondo/palanca_fondo.yy",},
+    "parent": {"name":"alcohol_fondo","path":"sprites/alcohol_fondo/alcohol_fondo.yy",},
     "resourceVersion": "1.3",
-    "name": "palanca_fondo",
+    "name": "alcohol_fondo",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6c0c053c-3e5b-4498-8033-24cbf4055810","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"374e8c90-5268-4bfa-8e56-f4f8c469c2a9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "objetos_fondo",
-    "path": "folders/Sprites/objetos_fondo.yy",
+    "name": "grupito",
+    "path": "folders/Sprites/grupito.yy",
   },
   "resourceVersion": "1.0",
-  "name": "palanca_fondo",
+  "name": "alcohol_fondo",
   "tags": [],
   "resourceType": "GMSprite",
 }

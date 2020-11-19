@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 1,
-  "bbox_right": 61,
-  "bbox_top": 1,
-  "bbox_bottom": 58,
+  "bbox_right": 33,
+  "bbox_top": 0,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 63,
-  "height": 59,
+  "width": 35,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2e332e41-88b3-4559-9bd7-58334c9f467b","path":"sprites/jeringa_fondo/jeringa_fondo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2e332e41-88b3-4559-9bd7-58334c9f467b","path":"sprites/jeringa_fondo/jeringa_fondo.yy",},"LayerId":{"name":"f3272233-cc97-488b-98fa-711f33cfffdb","path":"sprites/jeringa_fondo/jeringa_fondo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"jeringa_fondo","path":"sprites/jeringa_fondo/jeringa_fondo.yy",},"resourceVersion":"1.0","name":"2e332e41-88b3-4559-9bd7-58334c9f467b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1793ddb5-3f5e-470c-aee4-23f6ca3340cd","path":"sprites/celular_fondo/celular_fondo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1793ddb5-3f5e-470c-aee4-23f6ca3340cd","path":"sprites/celular_fondo/celular_fondo.yy",},"LayerId":{"name":"9c09f2fb-26c8-4fbc-bdbf-b91345a2c3e4","path":"sprites/celular_fondo/celular_fondo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"celular_fondo","path":"sprites/celular_fondo/celular_fondo.yy",},"resourceVersion":"1.0","name":"1793ddb5-3f5e-470c-aee4-23f6ca3340cd","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"jeringa_fondo","path":"sprites/jeringa_fondo/jeringa_fondo.yy",},
+    "spriteId": {"name":"celular_fondo","path":"sprites/celular_fondo/celular_fondo.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a58c5032-3701-40db-aa62-179fd6233b04","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2e332e41-88b3-4559-9bd7-58334c9f467b","path":"sprites/jeringa_fondo/jeringa_fondo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5369250e-8191-4f59-9040-7b8a9bbd0a2c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1793ddb5-3f5e-470c-aee4-23f6ca3340cd","path":"sprites/celular_fondo/celular_fondo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"jeringa_fondo","path":"sprites/jeringa_fondo/jeringa_fondo.yy",},
+    "parent": {"name":"celular_fondo","path":"sprites/celular_fondo/celular_fondo.yy",},
     "resourceVersion": "1.3",
-    "name": "jeringa_fondo",
+    "name": "celular_fondo",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f3272233-cc97-488b-98fa-711f33cfffdb","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9c09f2fb-26c8-4fbc-bdbf-b91345a2c3e4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "objetos_fondo",
-    "path": "folders/Sprites/objetos_fondo.yy",
+    "name": "grupito",
+    "path": "folders/Sprites/grupito.yy",
   },
   "resourceVersion": "1.0",
-  "name": "jeringa_fondo",
+  "name": "celular_fondo",
   "tags": [],
   "resourceType": "GMSprite",
 }

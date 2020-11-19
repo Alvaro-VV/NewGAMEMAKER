@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_right": 61,
   "bbox_top": 0,
-  "bbox_bottom": 65,
+  "bbox_bottom": 33,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 66,
+  "width": 62,
+  "height": 34,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9a81941e-a8b2-4f4c-96a0-eb76416aac98","path":"sprites/palanca_fondo91/palanca_fondo91.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9a81941e-a8b2-4f4c-96a0-eb76416aac98","path":"sprites/palanca_fondo91/palanca_fondo91.yy",},"LayerId":{"name":"6c0c053c-3e5b-4498-8033-24cbf4055810","path":"sprites/palanca_fondo91/palanca_fondo91.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"palanca_fondo91","path":"sprites/palanca_fondo91/palanca_fondo91.yy",},"resourceVersion":"1.0","name":"9a81941e-a8b2-4f4c-96a0-eb76416aac98","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"06c1e3e9-5521-47b0-83d1-aabd9399e669","path":"sprites/mouse_fondo/mouse_fondo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"06c1e3e9-5521-47b0-83d1-aabd9399e669","path":"sprites/mouse_fondo/mouse_fondo.yy",},"LayerId":{"name":"9ab5d370-ba0e-4847-9aa9-4a527ebaa4d4","path":"sprites/mouse_fondo/mouse_fondo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"mouse_fondo","path":"sprites/mouse_fondo/mouse_fondo.yy",},"resourceVersion":"1.0","name":"06c1e3e9-5521-47b0-83d1-aabd9399e669","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"palanca_fondo91","path":"sprites/palanca_fondo91/palanca_fondo91.yy",},
+    "spriteId": {"name":"mouse_fondo","path":"sprites/mouse_fondo/mouse_fondo.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"9089bb23-bf81-441a-a108-6df014511aaa","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9a81941e-a8b2-4f4c-96a0-eb76416aac98","path":"sprites/palanca_fondo91/palanca_fondo91.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c4c5c15c-fb3d-4b7c-9465-352d608a6023","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"06c1e3e9-5521-47b0-83d1-aabd9399e669","path":"sprites/mouse_fondo/mouse_fondo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"palanca_fondo91","path":"sprites/palanca_fondo91/palanca_fondo91.yy",},
+    "parent": {"name":"mouse_fondo","path":"sprites/mouse_fondo/mouse_fondo.yy",},
     "resourceVersion": "1.3",
-    "name": "palanca_fondo",
+    "name": "mouse_fondo",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6c0c053c-3e5b-4498-8033-24cbf4055810","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9ab5d370-ba0e-4847-9aa9-4a527ebaa4d4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "grupito",
     "path": "folders/Sprites/grupito.yy",
   },
   "resourceVersion": "1.0",
-  "name": "palanca_fondo91",
+  "name": "mouse_fondo",
   "tags": [],
   "resourceType": "GMSprite",
 }
