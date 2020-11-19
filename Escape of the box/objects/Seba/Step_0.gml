@@ -1,6 +1,11 @@
+/// @description Inserte aquí la descripción
+// Puede escribir su código en este editor
 #region valores
 k_a= keyboard_check( ord("A"));
 k_left= keyboard_check(vk_left);
+
+b= keyboard_check( ord("B"));
+
 
 k_d= keyboard_check( ord("D"));
 k_right= keyboard_check(vk_right);
@@ -11,75 +16,69 @@ k_up= keyboard_check(vk_up);
 k_s= keyboard_check( ord("S"));
 k_down= keyboard_check(vk_down);
 
-if poderpegar
-{
-	k_ataque= keyboard_check_pressed(vk_space);
-}
-
+k_ataque= keyboard_check_pressed(vk_space);
+mov=5;
 #endregion
 
 #region control de movimiento
-if((k_a or k_left) and global.podermover == true)
+if(k_a or k_left)
 {
 	image_xscale=-1;
 	sprite_index= right;
 	image_speed=1;
-	x=x-global.mov;
+	x=x-mov;
 	global.mira="left";
 }
-else if((k_d or k_right) and global.podermover == true)
+else if(k_d or k_right)
 {
 	image_xscale=1;
 	sprite_index=right;
-	x=x+global.mov;
+	x=x+mov;
 	image_speed=1;
 	global.mira="right";
 }
-else if((k_w or k_up) and global.podermover == true)
+else if(k_w or k_up)
 {
 	sprite_index=up;
-	y=y-global.mov;
+	y=y-mov;
 	image_speed=1;
 	global.mira="up";
 }
-else if((k_down or k_s) and global.podermover == true)
+else if(k_down or k_s)
 {
 	image_yscale=1;
 	sprite_index=down;
-	y=y+global.mov;
+	y=y+mov;
 	image_speed=1;
 	global.mira="down";
 }
-else if(keyboard_check_released(ord("A")) or keyboard_check_released(vk_left) and global.podermover == true)
+else if(keyboard_check_released(ord("A")) or keyboard_check_released(vk_left))
 {
 	image_xscale=-1;
 	sprite_index=stop_r;
 	image_speed=1;
 	
 }
-else if(keyboard_check_released(ord("D")) or keyboard_check_released(vk_right) and global.podermover == true)
+else if(keyboard_check_released(ord("D")) or keyboard_check_released(vk_right))
 {
 	image_xscale=1;
 	sprite_index=stop_r;
 	image_speed=1;
 }
-else if(keyboard_check_released(ord("W")) or keyboard_check_released(vk_up) and global.podermover == true)
-{
-	image_speed=0;	
-}
-else if(keyboard_check_released(ord("S")) or keyboard_check_released(vk_down) and global.podermover == true)
+else if(keyboard_check_released(ord("S")) or keyboard_check_released(vk_down) )
 {
 	sprite_index= idle;	
 	image_speed=1;
 }
+else if((keyboard_check_released(ord("W")) or keyboard_check_released(vk_up)))
+{
+	image_speed=0;	
+}
 #endregion
 
 #region pegar
-if k_ataque and poderpegar
+if k_ataque
 {
-	global.podermover = false;
-	poderpegar = false;
-	alarm[0]=50;
 	switch (global.mira)
 	{
 		case "up":
@@ -97,4 +96,9 @@ if k_ataque and poderpegar
 		default: break;
 	}
 }
+<<<<<<< HEAD
 #endregion
+=======
+#endregion
+
+>>>>>>> parent of 0993ea7... Merge branch 'main' into Alvo

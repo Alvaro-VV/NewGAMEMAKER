@@ -2,7 +2,7 @@ if !toque exit;
 
 if(texto == "Jugar")
 {
-	room_goto(Historia);
+	room_goto_next();
 }
 if(texto== "Opciones")
 {

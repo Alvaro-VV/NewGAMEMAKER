@@ -2,70 +2,57 @@
 // Puede escribir su código en este editor
 if(global.Inventario == true)
 {
-	//INVENTARIO
-	draw_sprite(Inventory,0,480,320);
-	//LINEA 1
-	draw_sprite(alcohol_fondo,0,260,220);
-	draw_sprite(celular_fondo,0,380,220);
-	draw_sprite(jeringa_fondo,0,453,220);
-	draw_sprite(key1O_fondo,0,550,230);
-	draw_sprite(linterna_fondo,0,650,220);
-	//LINEA 2
-	draw_sprite(mascarilla_fondo,0,260,300);
-	draw_sprite(mouse_fondo,0,370,310);
-	draw_sprite(palanca_fondo,0,463,285);
-	draw_sprite(pendrive_fondo,0,550,305);
-	draw_sprite(howTo_fondo,0,640,295);
-	//LINEA 3
-	draw_sprite(boss_fondo,0,453,380);
-	
-	
-	
-		if(global.key1O)
-		{
-			draw_sprite(tarjeta_sprt,0,550,230);	
-		}
+	draw_sprite(Inventory,0,480,320)
 		if(global.alcoholGel == true)
 		{
-			draw_sprite(alcoholGel_sprt,0,260,220);
+			draw_sprite(alcoholGel_sprt,0,240,210);
 		}
 		if(global.bossKey)
 		{
-			draw_sprite(bossKey_sprt,0,453,380);	
+			//draw_sprite(obj_bossKey,0,280,210);	
 		}
 		if(global.celular)
 		{
-			draw_sprite(celular_sprt,0,380,220);
+			draw_sprite(celular_sprt,0,280,210);
 		}
 		if(global.howTo)
 		{
-			draw_sprite(howTo_sprt,0,640,295);	
+			
 		}
 		if(global.Jeringa)
 		{
-			draw_sprite(jeringa_sprt,0,453,220);	
+			
 		}
 		if(global.linterna)
 		{
-			draw_sprite(linterna_sprt,0,650,220);	
+			
 		}
 		if(global.mascarilla)
 		{
-			draw_sprite(mascarilla_sprt,0,260,300);
+			
 		}
 		if(global.mouse)
 		{
-			draw_sprite(Mouse_sprt,0,370,310);	
+			
 		}
 		if(global.palanca)
 		{
-			draw_sprite(palanca_sprt,0,463,285);	
+			
 		}
 		if(global.pendrive)
 		{
+<<<<<<< HEAD
 			draw_sprite(pendrive_sprt,0,550,305);
 		}
 		
+=======
+			
+		}
+		if(global.tarjeta)
+		{
+			
+		}
+>>>>>>> parent of 0993ea7... Merge branch 'main' into Alvo
 		
 		
 }
