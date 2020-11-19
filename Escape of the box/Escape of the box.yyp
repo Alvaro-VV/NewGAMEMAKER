@@ -8,7 +8,10 @@
     {"id":{"name":"choque","path":"objects/choque/choque.yy",},"order":6,},
     {"id":{"name":"Sprite44","path":"sprites/Sprite44/Sprite44.yy",},"order":11,},
     {"id":{"name":"Muro_5G","path":"sprites/Muro_5G/Muro_5G.yy",},"order":1,},
+<<<<<<< HEAD
     {"id":{"name":"boss_fondo","path":"sprites/boss_fondo/boss_fondo.yy",},"order":1,},
+=======
+>>>>>>> parent of daeac13... teletransporte y cuadro de dialogos
     {"id":{"name":"awa","path":"objects/awa/awa.yy",},"order":0,},
     {"id":{"name":"Sprite52","path":"sprites/Sprite52/Sprite52.yy",},"order":17,},
     {"id":{"name":"bajoarbolder","path":"objects/bajoarbolder/bajoarbolder.yy",},"order":4,},
@@ -29,6 +32,10 @@
     {"id":{"name":"celular_sprt","path":"sprites/celular_sprt/celular_sprt.yy",},"order":6,},
     {"id":{"name":"pendrive_sprt","path":"sprites/pendrive_sprt/pendrive_sprt.yy",},"order":12,},
     {"id":{"name":"puertaV","path":"objects/puertaV/puertaV.yy",},"order":3,},
+<<<<<<< HEAD
+=======
+    {"id":{"name":"key1O_fondo","path":"sprites/key1O_fondo/key1O_fondo.yy",},"order":10,},
+>>>>>>> parent of daeac13... teletransporte y cuadro de dialogos
     {"id":{"name":"sacoBoxeo","path":"sprites/sacoBoxeo/sacoBoxeo.yy",},"order":2,},
     {"id":{"name":"key1O_fondo","path":"sprites/key1O_fondo/key1O_fondo.yy",},"order":5,},
     {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},"order":6,},
@@ -44,7 +51,11 @@
     {"id":{"name":"Laboratorio_Room","path":"rooms/Laboratorio_Room/Laboratorio_Room.yy",},"order":1,},
     {"id":{"name":"esquina","path":"objects/esquina/esquina.yy",},"order":0,},
     {"id":{"name":"pist3","path":"objects/pist3/pist3.yy",},"order":7,},
+<<<<<<< HEAD
     {"id":{"name":"howTo_fondo","path":"sprites/howTo_fondo/howTo_fondo.yy",},"order":3,},
+=======
+    {"id":{"name":"palanca_fondo","path":"sprites/palanca_fondo/palanca_fondo.yy",},"order":8,},
+>>>>>>> parent of daeac13... teletransporte y cuadro de dialogos
     {"id":{"name":"Mouse_sprt","path":"sprites/Mouse_sprt/Mouse_sprt.yy",},"order":10,},
     {"id":{"name":"celular_fondo","path":"sprites/celular_fondo/celular_fondo.yy",},"order":2,},
     {"id":{"name":"Sprite70","path":"sprites/Sprite70/Sprite70.yy",},"order":8,},
@@ -105,11 +116,19 @@
     {"id":{"name":"obj_bossKey","path":"objects/obj_bossKey/obj_bossKey.yy",},"order":1,},
     {"id":{"name":"Seba","path":"objects/Seba/Seba.yy",},"order":0,},
     {"id":{"name":"alcoholGel_sprt","path":"sprites/alcoholGel_sprt/alcoholGel_sprt.yy",},"order":7,},
+<<<<<<< HEAD
+=======
+    {"id":{"name":"mouse_fondo","path":"sprites/mouse_fondo/mouse_fondo.yy",},"order":7,},
+>>>>>>> parent of daeac13... teletransporte y cuadro de dialogos
     {"id":{"name":"Historia","path":"rooms/Historia/Historia.yy",},"order":9,},
     {"id":{"name":"past","path":"objects/past/past.yy",},"order":5,},
     {"id":{"name":"Sprite65","path":"sprites/Sprite65/Sprite65.yy",},"order":1,},
     {"id":{"name":"Z_5G_Mission_Control_Room","path":"rooms/Z_5G_Mission_Control_Room/Z_5G_Mission_Control_Room.yy",},"order":10,},
     {"id":{"name":"tp_player","path":"objects/tp_player/tp_player.yy",},"order":0,},
+<<<<<<< HEAD
+=======
+    {"id":{"name":"pendrive_fondo","path":"sprites/pendrive_fondo/pendrive_fondo.yy",},"order":9,},
+>>>>>>> parent of daeac13... teletransporte y cuadro de dialogos
     {"id":{"name":"Casa","path":"sprites/Casa/Casa.yy",},"order":0,},
     {"id":{"name":"bloque3S","path":"sprites/bloque3S/bloque3S.yy",},"order":3,},
     {"id":{"name":"Sprite46","path":"sprites/Sprite46/Sprite46.yy",},"order":13,},
@@ -175,9 +194,13 @@
     "children": [],
   },
   "RoomOrder": [
+<<<<<<< HEAD
     {"name":"Room1","path":"rooms/Room1/Room1.yy",},
+=======
+>>>>>>> parent of daeac13... teletransporte y cuadro de dialogos
     {"name":"Principal","path":"rooms/Principal/Principal.yy",},
     {"name":"Historia","path":"rooms/Historia/Historia.yy",},
+    {"name":"Room1","path":"rooms/Room1/Room1.yy",},
     {"name":"Laboratorio_Room","path":"rooms/Laboratorio_Room/Laboratorio_Room.yy",},
     {"name":"Zona_5G_Room","path":"rooms/Zona_5G_Room/Zona_5G_Room.yy",},
     {"name":"PasoBosque_Room","path":"rooms/PasoBosque_Room/PasoBosque_Room.yy",},
