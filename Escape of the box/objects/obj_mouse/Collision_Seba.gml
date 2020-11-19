@@ -1,4 +1,4 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-arriba=true;
-yorigen=y;
+global.mouse=true;
+instance_destroy();
