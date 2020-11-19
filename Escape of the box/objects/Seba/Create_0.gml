@@ -17,4 +17,4 @@ global.mascarilla=false;
 global.mouse=false;
 global.palanca=false;
 global.pendrive=false;
-global.key1O=false;
+global.tarjeta=false;
