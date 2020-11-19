@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"13bf31f8-f14a-4fc7-ae74-a787f3a413b4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "grupito",
-    "path": "folders/Sprites/grupito.yy",
+    "name": "objetos_fondo",
+    "path": "folders/Sprites/objetos_fondo.yy",
   },
   "resourceVersion": "1.0",
   "name": "linterna_fondo",

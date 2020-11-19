@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a621f558-d662-420a-8522-4897b6841e32","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "grupito",
-    "path": "folders/Sprites/grupito.yy",
+    "name": "objetos_fondo",
+    "path": "folders/Sprites/objetos_fondo.yy",
   },
   "resourceVersion": "1.0",
   "name": "boss_fondo",

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1c59e66b-a5bf-4b86-a731-a13db2dc5ea1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "grupito",
-    "path": "folders/Sprites/grupito.yy",
+    "name": "objetos_fondo",
+    "path": "folders/Sprites/objetos_fondo.yy",
   },
   "resourceVersion": "1.0",
   "name": "howTo_fondo",

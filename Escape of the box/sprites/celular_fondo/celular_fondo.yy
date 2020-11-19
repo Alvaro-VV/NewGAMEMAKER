@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9c09f2fb-26c8-4fbc-bdbf-b91345a2c3e4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "grupito",
-    "path": "folders/Sprites/grupito.yy",
+    "name": "objetos_fondo",
+    "path": "folders/Sprites/objetos_fondo.yy",
   },
   "resourceVersion": "1.0",
   "name": "celular_fondo",

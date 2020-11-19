@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1fdeb140-e64c-4534-8702-bbd08570dee4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "grupito",
-    "path": "folders/Sprites/grupito.yy",
+    "name": "objetos_fondo",
+    "path": "folders/Sprites/objetos_fondo.yy",
   },
   "resourceVersion": "1.0",
   "name": "key1O_fondo",
