@@ -6,5 +6,6 @@ if(global.linterna==true)
 }
 else
 {
+	global.texto="El bosque es muy oscuro! Debes buscar una linterna!";
 	instance_create_depth(478,512,dialogo,dialogo);
 }

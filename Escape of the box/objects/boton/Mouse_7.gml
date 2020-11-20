@@ -4,9 +4,9 @@ if(texto == "Jugar")
 {
 	room_goto(Historia);
 }
-if(texto== "Opciones")
+if(texto== "Menú Principal")
 {
-	//algo	
+	room_goto(Principal);	
 }
 if(texto== "Salir")
 {

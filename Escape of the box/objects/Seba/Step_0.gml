@@ -11,6 +11,8 @@ k_up= keyboard_check(vk_up);
 k_s= keyboard_check( ord("S"));
 k_down= keyboard_check(vk_down);
 
+k_reset= keyboard_check(ord("M"));
+
 if poderpegar
 {
 	k_ataque= keyboard_check_pressed(vk_space);
@@ -98,3 +100,22 @@ if k_ataque and poderpegar
 	}
 }
 #endregion
+
+//VIDA DEL JUGADOR AL MORIR
+
+if(Seba.vida<=0)
+{
+	sprite_index=dead;
+	global.mov=0;
+	
+	if(Seba.vida==0){
+	global.texto="¡HAS MUERTO!                                                                                 Presiona la tecla M para continuar";
+	instance_create_depth(478,512,dialogo,dialogo);
+	Seba.vida-=1;
+	}
+	if(k_reset)
+	{
+		game_restart();
+	}
+	//NOTA, DESACTIVAR EL COMBATE CUANDO SE MUERE.
+}
