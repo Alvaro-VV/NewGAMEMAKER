@@ -5,15 +5,11 @@ if(Seba.vida==3)
 }
 else if(Seba.vida==2)
 {
-	draw_sprite(Vida,1,50,50);
+	draw_sprite(Vida,1,70,30);
 }
 else if(Seba.vida==1)
 {
-	draw_sprite(Vida,2,50,50);
-}
-else if(Seba.vida==0)
-{
-	draw_sprite(Vida,3,50,50);//NO CONTIENE NADA LA IMAGEN
+	draw_sprite(Vida,2,70,30);
 }
 
 
