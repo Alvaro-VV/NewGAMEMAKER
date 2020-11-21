@@ -6,3 +6,5 @@ global.mov=5;
 global.podermover = true;
 k_ataque = keyboard_check_pressed(vk_space);
 poderpegar = true;
+invulnerable = 0;
+permitirtodo = true;

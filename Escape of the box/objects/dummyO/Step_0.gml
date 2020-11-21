@@ -2,14 +2,21 @@
 // Puede escribir su código en este editor
 if place_meeting(x,y,golpe)
 {
-	if (current_time - invul > 100)
+	if (current_time - invul > 650)
 	{
 		impacto_enemigo();
+		invul = current_time;
+		vida -=1;
 	}
 }
 
 if place_meeting(x,y,golpe)
 {
-	invul = current_time;
+	alarm[0]=3;
 }
-vision(xorigen,yorigen);
+vision(xorigen, yorigen);
+golpeEnemy();
+if vida = 0
+{
+	instance_destroy(instance_nearest(x,y,dummyO));
+}
