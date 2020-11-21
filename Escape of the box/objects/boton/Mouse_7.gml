@@ -6,7 +6,7 @@ if(texto == "Jugar")
 }
 if(texto== "Menú Principal")
 {
-	room_goto(Principal);	
+	game_restart();	
 }
 if(texto== "Salir")
 {
