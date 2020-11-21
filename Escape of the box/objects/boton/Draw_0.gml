@@ -1,5 +1,3 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
 draw_self();
 draw_set_font(Fuente1);
 draw_set_color(c_white);

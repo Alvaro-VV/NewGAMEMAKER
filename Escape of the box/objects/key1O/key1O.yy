@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "tarjeta",
-    "path": "sprites/tarjeta/tarjeta.yy",
+    "name": "tarjeta_sprt",
+    "path": "sprites/tarjeta_sprt/tarjeta_sprt.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,14 +21,14 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"key1O","path":"objects/key1O/key1O.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Seba","path":"objects/Seba/Seba.yy",},"parent":{"name":"key1O","path":"objects/key1O/key1O.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"key1O","path":"objects/key1O/key1O.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "objetos_Obtener",
+    "path": "folders/Objetos/objetos_Obtener.yy",
   },
   "resourceVersion": "1.0",
   "name": "key1O",
