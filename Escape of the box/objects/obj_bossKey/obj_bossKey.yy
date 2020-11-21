@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "bossKey_sprt",
-    "path": "sprites/bossKey_sprt/bossKey_sprt.yy",
+    "name": "boosKey_sprt",
+    "path": "sprites/boosKey_sprt/boosKey_sprt.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,10 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Seba","path":"objects/Seba/Seba.yy",},"parent":{"name":"obj_bossKey","path":"objects/obj_bossKey/obj_bossKey.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_bossKey","path":"objects/obj_bossKey/obj_bossKey.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

@@ -2,11 +2,11 @@ if !toque exit;
 
 if(texto == "Jugar")
 {
-	room_goto(Historia);
+	room_goto_next();
 }
-if(texto== "Menú Principal")
+if(texto== "Opciones")
 {
-	room_goto(Principal);	
+	//algo	
 }
 if(texto== "Salir")
 {
