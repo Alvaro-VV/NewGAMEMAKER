@@ -108,7 +108,16 @@ if k_ataque and poderpegar
 }
 #endregion
 
+
+
+
+
+
+
+
+/*
 if vida <= 0
 {
 	instance_destroy();
 }
+*/
