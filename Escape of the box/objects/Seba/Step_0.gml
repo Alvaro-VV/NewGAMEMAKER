@@ -109,7 +109,7 @@ if(Seba.vida<=0)
 	global.mov=0;
 	
 	if(Seba.vida==0){
-	global.texto="¡HAS MUERTO!                                                                                 Presiona la tecla M para continuar";
+	global.texto="¡HAS MUERTO!                                                                                 Presiona la tecla M para volver a jugar";
 	instance_create_depth(478,512,dialogo,dialogo);
 	Seba.vida-=1;
 	}

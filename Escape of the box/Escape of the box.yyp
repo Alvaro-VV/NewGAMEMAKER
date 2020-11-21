@@ -195,11 +195,9 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"Room1","path":"rooms/Room1/Room1.yy",},
-    {"name":"JefeFinal","path":"rooms/JefeFinal/JefeFinal.yy",},
-    {"name":"TerminarJuego","path":"rooms/TerminarJuego/TerminarJuego.yy",},
     {"name":"Principal","path":"rooms/Principal/Principal.yy",},
     {"name":"Historia","path":"rooms/Historia/Historia.yy",},
+    {"name":"Room1","path":"rooms/Room1/Room1.yy",},
     {"name":"Laboratorio_Room","path":"rooms/Laboratorio_Room/Laboratorio_Room.yy",},
     {"name":"Zona_5G_Room","path":"rooms/Zona_5G_Room/Zona_5G_Room.yy",},
     {"name":"PasoBosque_Room","path":"rooms/PasoBosque_Room/PasoBosque_Room.yy",},
@@ -211,6 +209,8 @@
     {"name":"Z_5G_Mission_Control_Room","path":"rooms/Z_5G_Mission_Control_Room/Z_5G_Mission_Control_Room.yy",},
     {"name":"ZonaBoos_Room_activada","path":"rooms/ZonaBoos_Room_activada/ZonaBoos_Room_activada.yy",},
     {"name":"Zona_5G_Room_NoCelular","path":"rooms/Zona_5G_Room_NoCelular/Zona_5G_Room_NoCelular.yy",},
+    {"name":"JefeFinal","path":"rooms/JefeFinal/JefeFinal.yy",},
+    {"name":"TerminarJuego","path":"rooms/TerminarJuego/TerminarJuego.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
