@@ -3,4 +3,3 @@
 invul = 0;
 xorigen = x;
 yorigen = y;
-vida=3;
