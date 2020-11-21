@@ -2,16 +2,21 @@
 // Puede escribir su código en este edit
 vida=3;
 global.mira="default";
-alarm[0]=4;
+global.mov=5;
+global.podermover = true;
+k_ataque = keyboard_check_pressed(vk_space);
+poderpegar = true;
+invulnerable = 0;
+permitirtodo = true;
 //OBJETOS
-alcoholGel=false;
-llaveJefe=false;
-celular=false;
-howTo=false;
-Jeringa=false;
-linterna=false;
-mascarilla=false;
-mouse=false;
-palanca=false;
-pendrive=false;
-tarjeta=false;
+global.alcoholGel=false;
+global.bossKey=false;
+global.celular=false;
+global.howTo=false;
+global.Jeringa=false;
+global.linterna=false; //LISTO
+global.mascarilla=false;
+global.mouse=false;
+global.palanca=false;
+global.pendrive=false;
+global.key1O=false;

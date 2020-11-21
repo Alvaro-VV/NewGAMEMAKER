@@ -1,0 +1,1 @@
+miniTexto="Si deseas llegar a la puerta la única respuesta será escontrar una llave siniestra";
