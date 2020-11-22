@@ -1,10 +1,7 @@
 {
-  "spriteId": {
-    "name": "puerta2S",
-    "path": "sprites/puerta2S/puerta2S.yy",
-  },
-  "solid": true,
-  "visible": true,
+  "spriteId": null,
+  "solid": false,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -20,15 +17,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"controladorSublab","path":"objects/controladorSublab/controladorSublab.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "laboratorio",
-    "path": "folders/Objetos/mapeo/laboratorio.yy",
+    "name": "Objetos",
+    "path": "folders/Objetos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "puertaR",
+  "name": "controladorSublab",
   "tags": [],
   "resourceType": "GMObject",
 }
