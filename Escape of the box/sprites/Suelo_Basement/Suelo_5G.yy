@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 595,
-  "bbox_top": 10,
-  "bbox_bottom": 545,
+  "bbox_right": 63,
+  "bbox_top": 0,
+  "bbox_bottom": 47,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 596,
-  "height": 561,
+  "width": 64,
+  "height": 48,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1ad7b82e-c448-4f85-b131-cc55419bc538","path":"sprites/mesita_basement/mesita_basement.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1ad7b82e-c448-4f85-b131-cc55419bc538","path":"sprites/mesita_basement/mesita_basement.yy",},"LayerId":{"name":"61665f82-e7fd-4be6-95d2-e617cda9dea3","path":"sprites/mesita_basement/mesita_basement.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"mesita_basement","path":"sprites/mesita_basement/mesita_basement.yy",},"resourceVersion":"1.0","name":"1ad7b82e-c448-4f85-b131-cc55419bc538","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8dca7ddb-739d-469c-8c73-70f03e5d0567","path":"sprites/Suelo_5G/Suelo_5G.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8dca7ddb-739d-469c-8c73-70f03e5d0567","path":"sprites/Suelo_5G/Suelo_5G.yy",},"LayerId":{"name":"46bdb0eb-194b-4fe4-a7f5-0acf857af57d","path":"sprites/Suelo_5G/Suelo_5G.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Suelo_5G","path":"sprites/Suelo_5G/Suelo_5G.yy",},"resourceVersion":"1.0","name":"8dca7ddb-739d-469c-8c73-70f03e5d0567","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"mesita_basement","path":"sprites/mesita_basement/mesita_basement.yy",},
+    "spriteId": {"name":"Suelo_5G","path":"sprites/Suelo_5G/Suelo_5G.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d0139d0b-ed51-4543-a053-d49e60cacfc4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1ad7b82e-c448-4f85-b131-cc55419bc538","path":"sprites/mesita_basement/mesita_basement.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"510bc51c-b28c-4dc8-95f7-6ff2391dd2a9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8dca7ddb-739d-469c-8c73-70f03e5d0567","path":"sprites/Suelo_5G/Suelo_5G.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"mesita_basement","path":"sprites/mesita_basement/mesita_basement.yy",},
+    "parent": {"name":"Suelo_5G","path":"sprites/Suelo_5G/Suelo_5G.yy",},
     "resourceVersion": "1.3",
-    "name": "mesita_basement",
+    "name": "Suelo_5G",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"61665f82-e7fd-4be6-95d2-e617cda9dea3","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"46bdb0eb-194b-4fe4-a7f5-0acf857af57d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Zona_5G",
     "path": "folders/Sprites/mapa/Zona_5G.yy",
   },
   "resourceVersion": "1.0",
-  "name": "mesita_basement",
+  "name": "Suelo_5G",
   "tags": [],
   "resourceType": "GMSprite",
 }

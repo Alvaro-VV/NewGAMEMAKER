@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 595,
-  "bbox_top": 10,
-  "bbox_bottom": 545,
+  "bbox_right": 31,
+  "bbox_top": 0,
+  "bbox_bottom": 31,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 596,
-  "height": 561,
+  "width": 32,
+  "height": 32,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1ad7b82e-c448-4f85-b131-cc55419bc538","path":"sprites/mesita_basement/mesita_basement.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1ad7b82e-c448-4f85-b131-cc55419bc538","path":"sprites/mesita_basement/mesita_basement.yy",},"LayerId":{"name":"61665f82-e7fd-4be6-95d2-e617cda9dea3","path":"sprites/mesita_basement/mesita_basement.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"mesita_basement","path":"sprites/mesita_basement/mesita_basement.yy",},"resourceVersion":"1.0","name":"1ad7b82e-c448-4f85-b131-cc55419bc538","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6d368e9e-75f9-483c-8535-57c43ce3fd83","path":"sprites/muro_interno_5G/muro_interno_5G.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6d368e9e-75f9-483c-8535-57c43ce3fd83","path":"sprites/muro_interno_5G/muro_interno_5G.yy",},"LayerId":{"name":"7da1a067-a416-471d-9ab4-d96953dbca46","path":"sprites/muro_interno_5G/muro_interno_5G.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"muro_interno_5G","path":"sprites/muro_interno_5G/muro_interno_5G.yy",},"resourceVersion":"1.0","name":"6d368e9e-75f9-483c-8535-57c43ce3fd83","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"mesita_basement","path":"sprites/mesita_basement/mesita_basement.yy",},
+    "spriteId": {"name":"muro_interno_5G","path":"sprites/muro_interno_5G/muro_interno_5G.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d0139d0b-ed51-4543-a053-d49e60cacfc4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1ad7b82e-c448-4f85-b131-cc55419bc538","path":"sprites/mesita_basement/mesita_basement.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b119fda6-f1c9-4e21-9215-3b79fa050022","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6d368e9e-75f9-483c-8535-57c43ce3fd83","path":"sprites/muro_interno_5G/muro_interno_5G.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"mesita_basement","path":"sprites/mesita_basement/mesita_basement.yy",},
+    "parent": {"name":"muro_interno_5G","path":"sprites/muro_interno_5G/muro_interno_5G.yy",},
     "resourceVersion": "1.3",
-    "name": "mesita_basement",
+    "name": "muro_interno_5G",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"61665f82-e7fd-4be6-95d2-e617cda9dea3","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7da1a067-a416-471d-9ab4-d96953dbca46","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Zona_5G",
     "path": "folders/Sprites/mapa/Zona_5G.yy",
   },
   "resourceVersion": "1.0",
-  "name": "mesita_basement",
+  "name": "muro_interno_5G",
   "tags": [],
   "resourceType": "GMSprite",
 }
