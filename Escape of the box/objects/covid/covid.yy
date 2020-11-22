@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "puerta2S",
-    "path": "sprites/puerta2S/puerta2S.yy",
+    "name": "enemigo3",
+    "path": "sprites/enemigo3/enemigo3.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "dummyO",
+    "path": "objects/dummyO/dummyO.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,17 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"puertaR","path":"objects/puertaR/puertaR.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "laboratorio",
-    "path": "folders/Objetos/mapeo/laboratorio.yy",
+    "name": "Enemigos",
+    "path": "folders/Objetos/Enemigos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "puertaR",
+  "name": "covid",
   "tags": [],
   "resourceType": "GMObject",
 }

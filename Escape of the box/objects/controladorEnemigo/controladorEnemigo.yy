@@ -1,9 +1,6 @@
 {
-  "spriteId": {
-    "name": "puerta2S",
-    "path": "sprites/puerta2S/puerta2S.yy",
-  },
-  "solid": true,
+  "spriteId": null,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -21,16 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"puertaR","path":"objects/puertaR/puertaR.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"controladorEnemigo","path":"objects/controladorEnemigo/controladorEnemigo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "laboratorio",
-    "path": "folders/Objetos/mapeo/laboratorio.yy",
+    "name": "controladores",
+    "path": "folders/Objetos/controladores.yy",
   },
   "resourceVersion": "1.0",
-  "name": "puertaR",
+  "name": "controladorEnemigo",
   "tags": [],
   "resourceType": "GMObject",
 }

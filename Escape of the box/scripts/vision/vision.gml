@@ -5,51 +5,78 @@ function vision(xorigen, yorigen){
     {
         if (!collision_line(x,y,Seba.x,Seba.y,col,false,false) and !collision_line(x,y,Seba.x,Seba.y,puertaR,false,false))
         {
-            if x-Seba.x>0
+			//vision enemigo
+			if Seba.x > x
+			{
+				image_xscale = -1;
+			}else
+			{
+				image_xscale = 1;	
+			}
+			//movimiento
+            if x - Seba.x > 0
             {
                 x = x - 1;
-            }else
-            {
-                x = x + 1;
-            }
-            if y-Seba.y>0
+            }else if y - Seba.y > 0
             {
                 y = y - 1;
-            }else
+            }
+            else if x-Seba.x < 0
+            {
+                x = x + 1;
+            }else if y - Seba.y < 0
             {
                 y = y + 1;
             }
         }else{
-            if (xorigen - x < 0)
-            {
-                x = x - 1;
-            }else if (xorigen - x > 0)
+			//vista
+			if xorigen > x
+			{
+				image_xscale = -1;
+			}else
+			{
+				image_xscale = 1;	
+			}
+			//movimineto
+            if (xorigen - x > 0)
             {
                 x = x + 1;
-            }
-            if (yorigen - y < 0)
+            }else if (yorigen - y > 0)
             {
                 y = y - 1;
-            }else if (yorigen - y > 0)
+            }
+            else if (xorigen - x < 0)
+            {
+                x = x + 1;
+            }else if (yorigen - y < 0)
             {
                 y = y + 1;
             }
         }
     }else
     {
-        if (xorigen - x < 0)
-        {
-            x = x - 1;
-        }else if (xorigen - x > 0)
-        {
-            x = x + 1;
-        }
-        if (yorigen - y < 0)
+		//vision
+		if xorigen > x
+		{
+			image_xscale = -1;
+		}else
+		{
+			image_xscale = 1;	
+		}
+		//movimineto
+        if (xorigen - x > 0)
+		{
+	        x = x + 1;
+		}else if (yorigen - y > 0)
         {
             y = y - 1;
-        }else if (yorigen - y > 0)
+        }
+        else if (xorigen - x < 0)
+        {
+            x = x + 1;
+        }else if (yorigen - y < 0)
         {
             y = y + 1;
-        }
+		}
     }
 }

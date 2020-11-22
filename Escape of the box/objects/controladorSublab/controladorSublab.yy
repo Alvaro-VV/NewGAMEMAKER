@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "controladores",
+    "path": "folders/Objetos/controladores.yy",
   },
   "resourceVersion": "1.0",
   "name": "controladorSublab",
