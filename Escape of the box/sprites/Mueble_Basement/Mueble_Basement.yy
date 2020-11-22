@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 31,
-  "bbox_top": 0,
-  "bbox_bottom": 31,
+  "bbox_right": 190,
+  "bbox_top": 1,
+  "bbox_bottom": 66,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 32,
+  "width": 191,
+  "height": 67,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a34fe8d4-8fcb-401c-a8bc-03812cb33608","path":"sprites/Piso_Casa_5G/Piso_Casa_5G.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a34fe8d4-8fcb-401c-a8bc-03812cb33608","path":"sprites/Piso_Casa_5G/Piso_Casa_5G.yy",},"LayerId":{"name":"b05546d3-210e-4730-be84-abfca3d0bde4","path":"sprites/Piso_Casa_5G/Piso_Casa_5G.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Piso_Casa_5G","path":"sprites/Piso_Casa_5G/Piso_Casa_5G.yy",},"resourceVersion":"1.0","name":"a34fe8d4-8fcb-401c-a8bc-03812cb33608","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"aa5f9670-ed69-4243-93dd-7d98947b8773","path":"sprites/Mueble_Basement/Mueble_Basement.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"aa5f9670-ed69-4243-93dd-7d98947b8773","path":"sprites/Mueble_Basement/Mueble_Basement.yy",},"LayerId":{"name":"ff824880-9e3a-4eed-9f07-1761bdca8390","path":"sprites/Mueble_Basement/Mueble_Basement.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Mueble_Basement","path":"sprites/Mueble_Basement/Mueble_Basement.yy",},"resourceVersion":"1.0","name":"aa5f9670-ed69-4243-93dd-7d98947b8773","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Piso_Casa_5G","path":"sprites/Piso_Casa_5G/Piso_Casa_5G.yy",},
+    "spriteId": {"name":"Mueble_Basement","path":"sprites/Mueble_Basement/Mueble_Basement.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8b1d7492-4496-4fb7-b54d-d15bbf17ef52","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a34fe8d4-8fcb-401c-a8bc-03812cb33608","path":"sprites/Piso_Casa_5G/Piso_Casa_5G.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3dd528de-abe2-4bd9-a6d7-f646e0d38995","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"aa5f9670-ed69-4243-93dd-7d98947b8773","path":"sprites/Mueble_Basement/Mueble_Basement.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Piso_Casa_5G","path":"sprites/Piso_Casa_5G/Piso_Casa_5G.yy",},
+    "parent": {"name":"Mueble_Basement","path":"sprites/Mueble_Basement/Mueble_Basement.yy",},
     "resourceVersion": "1.3",
-    "name": "Piso_Casa_5G",
+    "name": "Mueble_Basement",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b05546d3-210e-4730-be84-abfca3d0bde4","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ff824880-9e3a-4eed-9f07-1761bdca8390","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Zona_5G",
     "path": "folders/Sprites/mapa/Zona_5G.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Piso_Casa_5G",
+  "name": "Mueble_Basement",
   "tags": [],
   "resourceType": "GMSprite",
 }

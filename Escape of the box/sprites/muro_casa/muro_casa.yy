@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a34fe8d4-8fcb-401c-a8bc-03812cb33608","path":"sprites/Piso_Casa_5G/Piso_Casa_5G.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a34fe8d4-8fcb-401c-a8bc-03812cb33608","path":"sprites/Piso_Casa_5G/Piso_Casa_5G.yy",},"LayerId":{"name":"b05546d3-210e-4730-be84-abfca3d0bde4","path":"sprites/Piso_Casa_5G/Piso_Casa_5G.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Piso_Casa_5G","path":"sprites/Piso_Casa_5G/Piso_Casa_5G.yy",},"resourceVersion":"1.0","name":"a34fe8d4-8fcb-401c-a8bc-03812cb33608","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6d368e9e-75f9-483c-8535-57c43ce3fd83","path":"sprites/muro_casa/muro_casa.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6d368e9e-75f9-483c-8535-57c43ce3fd83","path":"sprites/muro_casa/muro_casa.yy",},"LayerId":{"name":"7da1a067-a416-471d-9ab4-d96953dbca46","path":"sprites/muro_casa/muro_casa.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"muro_casa","path":"sprites/muro_casa/muro_casa.yy",},"resourceVersion":"1.0","name":"6d368e9e-75f9-483c-8535-57c43ce3fd83","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Piso_Casa_5G","path":"sprites/Piso_Casa_5G/Piso_Casa_5G.yy",},
+    "spriteId": {"name":"muro_casa","path":"sprites/muro_casa/muro_casa.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8b1d7492-4496-4fb7-b54d-d15bbf17ef52","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a34fe8d4-8fcb-401c-a8bc-03812cb33608","path":"sprites/Piso_Casa_5G/Piso_Casa_5G.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d739a0d2-8e16-4a3d-af06-ce3745ba344f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6d368e9e-75f9-483c-8535-57c43ce3fd83","path":"sprites/muro_casa/muro_casa.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Piso_Casa_5G","path":"sprites/Piso_Casa_5G/Piso_Casa_5G.yy",},
+    "parent": {"name":"muro_casa","path":"sprites/muro_casa/muro_casa.yy",},
     "resourceVersion": "1.3",
-    "name": "Piso_Casa_5G",
+    "name": "muro_casa",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b05546d3-210e-4730-be84-abfca3d0bde4","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7da1a067-a416-471d-9ab4-d96953dbca46","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Zona_5G",
     "path": "folders/Sprites/mapa/Zona_5G.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Piso_Casa_5G",
+  "name": "muro_casa",
   "tags": [],
   "resourceType": "GMSprite",
 }
