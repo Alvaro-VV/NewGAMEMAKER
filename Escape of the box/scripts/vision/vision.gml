@@ -15,19 +15,19 @@ function vision(xorigen, yorigen){
 				image_xscale = 1;	
 			}
 			//movimiento
-            if x - Seba.x > 0
+            if x - Seba.x > 0 and place_free(x-1,y)
             {
                 x = x - 1;
             }
-			else if x-Seba.x < 0
+			else if x-Seba.x < 0 and place_free(x+1,y)
             {
                 x = x + 1;
 			}
-			if y - Seba.y > 0
+			if y - Seba.y > 0 and place_free(x,y-1)
             {
                 y = y - 1;
             }
-			else if y - Seba.y < 0
+			else if y - Seba.y < 0 and place_free(x,y+1)
             {
                 y = y + 1;
             }
@@ -41,20 +41,20 @@ function vision(xorigen, yorigen){
 				image_xscale = 1;	
 			}
 			//movimineto
-	        if (xorigen - x > 0)
+	        if (xorigen - x > 0) and place_free(x+1,y)
 	        {
 	            x = x + 1;
 	        }
-			else if (xorigen - x < 0)
+			else if (xorigen - x < 0) and place_free(x-1,y)
 	        {
 	            x = x - 1;
 	        }
 			
-			if (yorigen - y > 0)
+			if (yorigen - y > 0) and place_free(x,y+1)
 	        {
 	            y = y + 1;
 			}
-			else if (yorigen - y < 0)
+			else if (yorigen - y < 0) and place_free(x,y-1)
 			{
 	            y = y - 1;
 	        }
@@ -70,20 +70,20 @@ function vision(xorigen, yorigen){
 			image_xscale = 1;	
 		}
 		//movimineto
-		if (xorigen - x > 0)
+		if (xorigen - x > 0) and place_free(x+1,y)
         {
             x = x + 1;
         }
-		else if (xorigen - x < 0)    
+		else if (xorigen - x < 0) and place_free(x-1,y)
 		{
             x = x - 1;
         }
 		
-		if (yorigen - y > 0)
+		if (yorigen - y > 0) and place_free(x,y+1)
         {
             y = y + 1;
         }
-		else if (yorigen - y < 0)
+		else if (yorigen - y < 0) and place_free(x,y-1)
         {
             y = y - 1;
 	    }
