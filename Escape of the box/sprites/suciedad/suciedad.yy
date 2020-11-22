@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 15,
-  "bbox_right": 31,
+  "bbox_left": 0,
+  "bbox_right": 0,
   "bbox_top": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 0,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 32,
+  "width": 64,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9e29c099-00df-48aa-93f7-5438b17a47bc","path":"sprites/bloque7S/bloque7S.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9e29c099-00df-48aa-93f7-5438b17a47bc","path":"sprites/bloque7S/bloque7S.yy",},"LayerId":{"name":"f3731239-befe-4501-b0a4-045c82453ae7","path":"sprites/bloque7S/bloque7S.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"bloque7S","path":"sprites/bloque7S/bloque7S.yy",},"resourceVersion":"1.0","name":"9e29c099-00df-48aa-93f7-5438b17a47bc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9fd18423-63d4-4c87-80be-73f56c527e2e","path":"sprites/suciedad/suciedad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9fd18423-63d4-4c87-80be-73f56c527e2e","path":"sprites/suciedad/suciedad.yy",},"LayerId":{"name":"7fca3941-afd5-4ddb-a0b7-f515a1a32812","path":"sprites/suciedad/suciedad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"suciedad","path":"sprites/suciedad/suciedad.yy",},"resourceVersion":"1.0","name":"9fd18423-63d4-4c87-80be-73f56c527e2e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"bloque7S","path":"sprites/bloque7S/bloque7S.yy",},
+    "spriteId": {"name":"suciedad","path":"sprites/suciedad/suciedad.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"47e59536-8975-4ee0-8c37-b21f69296ef1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9e29c099-00df-48aa-93f7-5438b17a47bc","path":"sprites/bloque7S/bloque7S.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d17c34ba-6d98-4bab-b83c-3c86e67df0ef","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9fd18423-63d4-4c87-80be-73f56c527e2e","path":"sprites/suciedad/suciedad.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"bloque7S","path":"sprites/bloque7S/bloque7S.yy",},
+    "parent": {"name":"suciedad","path":"sprites/suciedad/suciedad.yy",},
     "resourceVersion": "1.3",
-    "name": "bloque7S",
+    "name": "suciedad",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f3731239-befe-4501-b0a4-045c82453ae7","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7fca3941-afd5-4ddb-a0b7-f515a1a32812","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Laboratorio_S",
     "path": "folders/Sprites/mapa/Laboratorio_S.yy",
   },
   "resourceVersion": "1.0",
-  "name": "bloque7S",
+  "name": "suciedad",
   "tags": [],
   "resourceType": "GMSprite",
 }

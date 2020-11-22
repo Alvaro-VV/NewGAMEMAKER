@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 15,
-  "bbox_right": 31,
+  "bbox_left": 0,
+  "bbox_right": 0,
   "bbox_top": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 0,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9e29c099-00df-48aa-93f7-5438b17a47bc","path":"sprites/bloque7S/bloque7S.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9e29c099-00df-48aa-93f7-5438b17a47bc","path":"sprites/bloque7S/bloque7S.yy",},"LayerId":{"name":"f3731239-befe-4501-b0a4-045c82453ae7","path":"sprites/bloque7S/bloque7S.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"bloque7S","path":"sprites/bloque7S/bloque7S.yy",},"resourceVersion":"1.0","name":"9e29c099-00df-48aa-93f7-5438b17a47bc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8f002fc4-3b5d-4a8d-835a-bead0ef30b6a","path":"sprites/pisoLab/pisoLab.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8f002fc4-3b5d-4a8d-835a-bead0ef30b6a","path":"sprites/pisoLab/pisoLab.yy",},"LayerId":{"name":"6fa5eba0-1c68-4007-8f90-24409d3cb057","path":"sprites/pisoLab/pisoLab.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"pisoLab","path":"sprites/pisoLab/pisoLab.yy",},"resourceVersion":"1.0","name":"8f002fc4-3b5d-4a8d-835a-bead0ef30b6a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"bloque7S","path":"sprites/bloque7S/bloque7S.yy",},
+    "spriteId": {"name":"pisoLab","path":"sprites/pisoLab/pisoLab.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"47e59536-8975-4ee0-8c37-b21f69296ef1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9e29c099-00df-48aa-93f7-5438b17a47bc","path":"sprites/bloque7S/bloque7S.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"69e10876-6354-4dfd-81ab-b4fe7a55f951","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8f002fc4-3b5d-4a8d-835a-bead0ef30b6a","path":"sprites/pisoLab/pisoLab.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"bloque7S","path":"sprites/bloque7S/bloque7S.yy",},
+    "parent": {"name":"pisoLab","path":"sprites/pisoLab/pisoLab.yy",},
     "resourceVersion": "1.3",
-    "name": "bloque7S",
+    "name": "pisoLab",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f3731239-befe-4501-b0a4-045c82453ae7","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6fa5eba0-1c68-4007-8f90-24409d3cb057","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Laboratorio_S",
     "path": "folders/Sprites/mapa/Laboratorio_S.yy",
   },
   "resourceVersion": "1.0",
-  "name": "bloque7S",
+  "name": "pisoLab",
   "tags": [],
   "resourceType": "GMSprite",
 }
