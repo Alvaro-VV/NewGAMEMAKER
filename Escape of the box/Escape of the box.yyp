@@ -95,6 +95,7 @@
     {"id":{"name":"obj_mascarilla","path":"objects/obj_mascarilla/obj_mascarilla.yy",},"order":6,},
     {"id":{"name":"ZonaBoos_Room_activada","path":"rooms/ZonaBoos_Room_activada/ZonaBoos_Room_activada.yy",},"order":11,},
     {"id":{"name":"enemigo3","path":"sprites/enemigo3/enemigo3.yy",},"order":0,},
+    {"id":{"name":"mesaLab","path":"sprites/mesaLab/mesaLab.yy",},"order":15,},
     {"id":{"name":"controladorSublab","path":"objects/controladorSublab/controladorSublab.yy",},"order":1,},
     {"id":{"name":"Sprite33","path":"sprites/Sprite33/Sprite33.yy",},"order":19,},
     {"id":{"name":"obj_howTo","path":"objects/obj_howTo/obj_howTo.yy",},"order":3,},

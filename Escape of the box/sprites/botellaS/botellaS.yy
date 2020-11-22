@@ -8,9 +8,9 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 0,
-  "bbox_top": 0,
-  "bbox_bottom": 0,
+  "bbox_right": 55,
+  "bbox_top": 6,
+  "bbox_bottom": 31,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"f917dfff-0b2d-4bf8-a631-70387a1d4a3f","path":"sprites/botellaS/botellaS.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f917dfff-0b2d-4bf8-a631-70387a1d4a3f","path":"sprites/botellaS/botellaS.yy",},"LayerId":{"name":"ff33a691-a970-46f2-afeb-f93b9b24f38c","path":"sprites/botellaS/botellaS.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"f917dfff-0b2d-4bf8-a631-70387a1d4a3f","path":"sprites/botellaS/botellaS.yy",},"LayerId":{"name":"e7eebefd-d5e5-4510-97f5-4873c01c6662","path":"sprites/botellaS/botellaS.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"f917dfff-0b2d-4bf8-a631-70387a1d4a3f","path":"sprites/botellaS/botellaS.yy",},"LayerId":{"name":"botellaS","path":"sprites/botellaS/botellaS.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"f917dfff-0b2d-4bf8-a631-70387a1d4a3f","path":"sprites/botellaS/botellaS.yy",},"LayerId":{"name":"botellaS","path":"sprites/botellaS/botellaS.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"f917dfff-0b2d-4bf8-a631-70387a1d4a3f","path":"sprites/botellaS/botellaS.yy",},"LayerId":{"name":"fc1a10af-3cb5-4ad6-9073-08a03ac90d38","path":"sprites/botellaS/botellaS.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"botellaS","path":"sprites/botellaS/botellaS.yy",},"resourceVersion":"1.0","name":"f917dfff-0b2d-4bf8-a631-70387a1d4a3f","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"d49525c3-2fd4-4be3-8620-66cd6ec69155","path":"sprites/botellaS/botellaS.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
