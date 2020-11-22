@@ -9,7 +9,8 @@ function vision(xorigen, yorigen){
 			if Seba.x > x
 			{
 				image_xscale = -1;
-			}else
+			}
+			else
 			{
 				image_xscale = 1;	
 			}
@@ -17,18 +18,20 @@ function vision(xorigen, yorigen){
             if x - Seba.x > 0
             {
                 x = x - 1;
-            }else if y - Seba.y > 0
+            }
+			else if x-Seba.x < 0
+            {
+                x = x + 1;
+			}
+			if y - Seba.y > 0
             {
                 y = y - 1;
             }
-            else if x-Seba.x < 0
-            {
-                x = x + 1;
-            }else if y - Seba.y < 0
+			else if y - Seba.y < 0
             {
                 y = y + 1;
             }
-        }else{
+		}else{
 			//vista
 			if xorigen > x
 			{
@@ -38,23 +41,26 @@ function vision(xorigen, yorigen){
 				image_xscale = 1;	
 			}
 			//movimineto
-            if (xorigen - x > 0)
-            {
-                x = x + 1;
-            }else if (yorigen - y > 0)
-            {
-                y = y - 1;
-            }
-            else if (xorigen - x < 0)
-            {
-                x = x + 1;
-            }else if (yorigen - y < 0)
-            {
-                y = y + 1;
-            }
-        }
-    }else
-    {
+	        if (xorigen - x > 0)
+	        {
+	            x = x + 1;
+	        }
+			else if (xorigen - x < 0)
+	        {
+	            x = x - 1;
+	        }
+			
+			if (yorigen - y > 0)
+	        {
+	            y = y + 1;
+			}
+			else if (yorigen - y < 0)
+			{
+	            y = y - 1;
+	        }
+		}
+		}else
+		{
 		//vision
 		if xorigen > x
 		{
@@ -64,19 +70,22 @@ function vision(xorigen, yorigen){
 			image_xscale = 1;	
 		}
 		//movimineto
-        if (xorigen - x > 0)
-		{
-	        x = x + 1;
-		}else if (yorigen - y > 0)
-        {
-            y = y - 1;
-        }
-        else if (xorigen - x < 0)
+		if (xorigen - x > 0)
         {
             x = x + 1;
-        }else if (yorigen - y < 0)
+        }
+		else if (xorigen - x < 0)    
+		{
+            x = x - 1;
+        }
+		
+		if (yorigen - y > 0)
         {
             y = y + 1;
-		}
-    }
+        }
+		else if (yorigen - y < 0)
+        {
+            y = y - 1;
+	    }
+	}
 }
