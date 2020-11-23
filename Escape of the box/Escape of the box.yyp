@@ -10,7 +10,6 @@
     {"id":{"name":"choque","path":"objects/choque/choque.yy",},"order":6,},
     {"id":{"name":"Sprite44","path":"sprites/Sprite44/Sprite44.yy",},"order":11,},
     {"id":{"name":"Muro_5G","path":"sprites/Muro_5G/Muro_5G.yy",},"order":1,},
-    {"id":{"name":"jefe_attack_down","path":"sprites/jefe_attack_down/jefe_attack_down.yy",},"order":1,},
     {"id":{"name":"boss_fondo","path":"sprites/boss_fondo/boss_fondo.yy",},"order":1,},
     {"id":{"name":"awa","path":"objects/awa/awa.yy",},"order":0,},
     {"id":{"name":"Sprite52","path":"sprites/Sprite52/Sprite52.yy",},"order":17,},
