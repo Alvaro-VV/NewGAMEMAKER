@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function vision(xorigen, yorigen){
-    if collision_circle(x,y,200,Seba,false,false) and Seba.vida>0
+function vision(xorigen, yorigen, rango, dezplazamiento){
+    if collision_circle(x,y,rango,Seba,false,false) and Seba.vida>0
     {
         if (!collision_line(x,y,Seba.x,Seba.y,col,false,false) and !collision_line(x,y,Seba.x,Seba.y,puertaR,false,false))
         {
@@ -15,21 +15,21 @@ function vision(xorigen, yorigen){
 				image_xscale = 1;	
 			}
 			//movimiento
-            if x - Seba.x > 0 and place_free(x-1,y)
+            if x - Seba.x > 0 and place_free(x-dezplazamiento,y)
             {
-                x = x - 1;
+                x = x - dezplazamiento;
             }
-			else if x-Seba.x < 0 and place_free(x+1,y)
+			else if x-Seba.x < 0 and place_free(x+dezplazamiento,y)
             {
-                x = x + 1;
+                x = x + dezplazamiento;
 			}
-			if y - Seba.y > 0 and place_free(x,y-1)
+			if y - Seba.y > 0 and place_free(x,y-dezplazamiento)
             {
-                y = y - 1;
+                y = y - dezplazamiento;
             }
-			else if y - Seba.y < 0 and place_free(x,y+1)
+			else if y - Seba.y < 0 and place_free(x,y+dezplazamiento)
             {
-                y = y + 1;
+                y = y + dezplazamiento;
             }
 		}else{
 			//vista
@@ -41,22 +41,22 @@ function vision(xorigen, yorigen){
 				image_xscale = 1;	
 			}
 			//movimineto
-	        if (xorigen - x > 0) and place_free(x+1,y)
+	        if (xorigen - x > 0) and place_free(x+dezplazamiento,y)
 	        {
-	            x = x + 1;
+	            x = x + dezplazamiento;
 	        }
-			else if (xorigen - x < 0) and place_free(x-1,y)
+			else if (xorigen - x < 0) and place_free(x-dezplazamiento,y)
 	        {
-	            x = x - 1;
+	            x = x - dezplazamiento;
 	        }
 			
-			if (yorigen - y > 0) and place_free(x,y+1)
+			if (yorigen - y > 0) and place_free(x,y+dezplazamiento)
 	        {
-	            y = y + 1;
+	            y = y + dezplazamiento;
 			}
-			else if (yorigen - y < 0) and place_free(x,y-1)
+			else if (yorigen - y < 0) and place_free(x,y-dezplazamiento)
 			{
-	            y = y - 1;
+	            y = y - dezplazamiento;
 	        }
 		}
 		}else
@@ -70,22 +70,22 @@ function vision(xorigen, yorigen){
 			image_xscale = 1;	
 		}
 		//movimineto
-		if (xorigen - x > 0) and place_free(x+1,y)
+		if (xorigen - x > 0) and place_free(x+dezplazamiento,y)
         {
-            x = x + 1;
+            x = x + dezplazamiento;
         }
-		else if (xorigen - x < 0) and place_free(x-1,y)
+		else if (xorigen - x < 0) and place_free(x-dezplazamiento,y)
 		{
-            x = x - 1;
+            x = x - dezplazamiento;
         }
 		
-		if (yorigen - y > 0) and place_free(x,y+1)
+		if (yorigen - y > 0) and place_free(x,y+dezplazamiento)
         {
-            y = y + 1;
+            y = y + dezplazamiento;
         }
-		else if (yorigen - y < 0) and place_free(x,y-1)
+		else if (yorigen - y < 0) and place_free(x,y-dezplazamiento)
         {
-            y = y - 1;
+            y = y - dezplazamiento;
 	    }
 	}
 }

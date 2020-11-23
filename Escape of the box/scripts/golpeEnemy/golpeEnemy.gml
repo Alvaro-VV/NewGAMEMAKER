@@ -1,5 +1,5 @@
-function golpeEnemy(){
-    valor = 20;
+function golpeEnemy(empuje){
+    valor = empuje;
     if (instance_exists(Seba) and Seba.vida>0)
     {
         if (current_time - Seba.invulnerable > 1000)
