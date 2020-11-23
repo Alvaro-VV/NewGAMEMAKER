@@ -10,6 +10,7 @@
     {"id":{"name":"choque","path":"objects/choque/choque.yy",},"order":6,},
     {"id":{"name":"Sprite44","path":"sprites/Sprite44/Sprite44.yy",},"order":11,},
     {"id":{"name":"Muro_5G","path":"sprites/Muro_5G/Muro_5G.yy",},"order":1,},
+    {"id":{"name":"jefe_attack_down","path":"sprites/jefe_attack_down/jefe_attack_down.yy",},"order":1,},
     {"id":{"name":"boss_fondo","path":"sprites/boss_fondo/boss_fondo.yy",},"order":1,},
     {"id":{"name":"awa","path":"objects/awa/awa.yy",},"order":0,},
     {"id":{"name":"Sprite52","path":"sprites/Sprite52/Sprite52.yy",},"order":17,},
@@ -137,6 +138,7 @@
     {"id":{"name":"Historia","path":"rooms/Historia/Historia.yy",},"order":9,},
     {"id":{"name":"past","path":"objects/past/past.yy",},"order":5,},
     {"id":{"name":"Z_5G_Mission_Control_Room","path":"rooms/Z_5G_Mission_Control_Room/Z_5G_Mission_Control_Room.yy",},"order":10,},
+    {"id":{"name":"Jefe_idle","path":"sprites/Jefe_idle/Jefe_idle.yy",},"order":0,},
     {"id":{"name":"tp_player","path":"objects/tp_player/tp_player.yy",},"order":0,},
     {"id":{"name":"Casa","path":"sprites/Casa/Casa.yy",},"order":0,},
     {"id":{"name":"bloque3S","path":"sprites/bloque3S/bloque3S.yy",},"order":3,},
@@ -269,6 +271,7 @@
     {"folderPath":"folders/Objetos/Enemigos.yy","order":14,"resourceVersion":"1.0","name":"Enemigos","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objetos/controladores.yy","order":15,"resourceVersion":"1.0","name":"controladores","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Tutorial.yy","order":7,"resourceVersion":"1.0","name":"Tutorial","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/jefe.yy","order":8,"resourceVersion":"1.0","name":"jefe","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
