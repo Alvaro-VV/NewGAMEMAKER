@@ -1,17 +1,18 @@
 //HUD DE LA VIDA DEL JUGADOR
-if(Seba.vida==3)
-{
-	draw_sprite(Vida,0,70,30);
+if(global.vencerJefe==false){
+	if(Seba.vida==3)
+	{
+		draw_sprite(Vida,0,70,30);
+	}
+	else if(Seba.vida==2)
+	{
+		draw_sprite(Vida,1,70,30);
+	}
+	else if(Seba.vida==1)
+	{
+		draw_sprite(Vida,2,70,30);
+	}
 }
-else if(Seba.vida==2)
-{
-	draw_sprite(Vida,1,70,30);
-}
-else if(Seba.vida==1)
-{
-	draw_sprite(Vida,2,70,30);
-}
-
 
 if(global.Inventario == true)
 {
