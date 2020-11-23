@@ -11,7 +11,7 @@ permitirtodo = true;
 //OBJETOS
 global.alcoholGel=false;
 global.bossKey=false;
-global.celular=false;
+global.celular=false;//LISTO
 global.howTo=false;
 global.Jeringa=false;
 global.linterna=false; //LISTO
