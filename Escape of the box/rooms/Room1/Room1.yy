@@ -140,6 +140,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"HUD","path":"objects/HUD/HUD.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-32.0,"y":-64.0,"resourceVersion":"1.0","name":"inst_264A7B62","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"tp_celular","path":"objects/tp_celular/tp_celular.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-32.0,"y":352.0,"resourceVersion":"1.0","name":"inst_2DCF17B9","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_celular","path":"objects/obj_celular/obj_celular.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":256.0,"resourceVersion":"1.0","name":"inst_265A2419","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_bossKey","path":"objects/obj_bossKey/obj_bossKey.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":736.0,"y":288.0,"resourceVersion":"1.0","name":"inst_686EB8A6","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"Sprite68","path":"sprites/Sprite68/Sprite68.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":2.3617022,"scaleY":4.2,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":192.0,"resourceVersion":"1.0","name":"graphic_5C9C6D35","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -432,6 +433,7 @@
     {"name":"inst_264A7B62","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2DCF17B9","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_265A2419","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_686EB8A6","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

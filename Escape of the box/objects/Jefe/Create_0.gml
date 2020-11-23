@@ -1,3 +1,7 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-draw_circle(x,y,200,true);
+invul = 0;
+xorigen = x;
+yorigen = y;
+vida= 8;
+muevete = false;
