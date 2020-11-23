@@ -1,3 +1,3 @@
 tpzone=Laboratorio_Room
-tp_x=158;
-tp_y=95;
+tp_x=63;
+tp_y=118;
