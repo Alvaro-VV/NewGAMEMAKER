@@ -55,7 +55,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"cientifico","path":"objects/cientifico/cientifico.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":128.0,"resourceVersion":"1.0","name":"inst_1FDE8B9D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_mascarilla","path":"objects/obj_mascarilla/obj_mascarilla.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.890625,"scaleY":0.8979592,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":292.0,"y":490.0,"resourceVersion":"1.0","name":"inst_6311E4DD","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"cientifico","path":"objects/cientifico/cientifico.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":526.0,"resourceVersion":"1.0","name":"inst_43062B77","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"Seba","path":"objects/Seba/Seba.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":320.0,"resourceVersion":"1.0","name":"inst_5BA8189","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"bloque1S","path":"sprites/bloque1S/bloque1S.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":192.0,"resourceVersion":"1.0","name":"graphic_73EA8101","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -455,7 +454,6 @@
     {"name":"inst_25DD0DD6","path":"rooms/LaboratorioSub_Room/LaboratorioSub_Room.yy",},
     {"name":"inst_1FDE8B9D","path":"rooms/LaboratorioSub_Room/LaboratorioSub_Room.yy",},
     {"name":"inst_6311E4DD","path":"rooms/LaboratorioSub_Room/LaboratorioSub_Room.yy",},
-    {"name":"inst_5BA8189","path":"rooms/LaboratorioSub_Room/LaboratorioSub_Room.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
