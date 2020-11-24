@@ -116,7 +116,7 @@ if(Seba.vida<=0)
 	poderpegar=false;
 	
 	if(Seba.vida==0){
-	global.texto="¡HAS MUERTO!                                                                                 Presiona la tecla M para volver a jugar";
+	global.texto="¡HAS MUERTO!;                                                                                 Presiona la tecla M para volver a jugar";
 	instance_create_depth(478,512,dialogo,dialogo);
 	Seba.vida-=1;
 	}

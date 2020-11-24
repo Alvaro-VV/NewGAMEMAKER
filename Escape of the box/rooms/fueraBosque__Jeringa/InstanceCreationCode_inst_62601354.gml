@@ -1,0 +1,1 @@
+miniTexto="¿A donde fue el monstruo? ";

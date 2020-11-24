@@ -4,7 +4,7 @@ if place_meeting(x,y,golpe)
 {
     if (current_time - invul > 650)
     {
-        impacto_enemigo(5);
+        impacto_enemigo(7);
         invul = current_time;
         vida -=1;
     }
@@ -48,3 +48,12 @@ if muevete == true
 	}
 }
 #endregion
+
+if(vida==0)
+{
+	global.vencerJefe=true;
+	global.texto="¡HAS VENCIDO AL JEFE POR LO QUE PUEDES SALIR DE LA CAJA 2020!";
+	instance_create_depth(478,512,dialogo,dialogo);
+	vida=-1;
+	
+}

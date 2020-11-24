@@ -1,0 +1,1 @@
+miniTexto="¡Con esta palanca puedes abrir la puerta de la casa!"

@@ -24,9 +24,9 @@
   "gridX": 100,
   "gridY": 100,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4ca8695e-1cbd-4843-ac43-3c33faee2029","path":"sprites/Oscuridad/Oscuridad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4ca8695e-1cbd-4843-ac43-3c33faee2029","path":"sprites/Oscuridad/Oscuridad.yy",},"LayerId":{"name":"a3681839-04b6-469c-890a-34778e1d3b76","path":"sprites/Oscuridad/Oscuridad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Oscuridad","path":"sprites/Oscuridad/Oscuridad.yy",},"resourceVersion":"1.0","name":"4ca8695e-1cbd-4843-ac43-3c33faee2029","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c581b375-42a8-49ca-9fed-9b0d381cf446","path":"sprites/Oscuridad/Oscuridad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c581b375-42a8-49ca-9fed-9b0d381cf446","path":"sprites/Oscuridad/Oscuridad.yy",},"LayerId":{"name":"a3681839-04b6-469c-890a-34778e1d3b76","path":"sprites/Oscuridad/Oscuridad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Oscuridad","path":"sprites/Oscuridad/Oscuridad.yy",},"resourceVersion":"1.0","name":"c581b375-42a8-49ca-9fed-9b0d381cf446","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Oscuridad","path":"sprites/Oscuridad/Oscuridad.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"9c4a06c6-263b-4083-b6d4-cf822cd562c4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4ca8695e-1cbd-4843-ac43-3c33faee2029","path":"sprites/Oscuridad/Oscuridad.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"913b047b-7247-4fc4-82b4-3d8f6e410c12","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c581b375-42a8-49ca-9fed-9b0d381cf446","path":"sprites/Oscuridad/Oscuridad.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,

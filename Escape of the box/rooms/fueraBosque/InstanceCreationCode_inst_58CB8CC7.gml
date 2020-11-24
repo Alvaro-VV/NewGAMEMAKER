@@ -1,0 +1,1 @@
+miniTexto="¿Que miras? me estoy bañando ¿podrías dejarme solo?"

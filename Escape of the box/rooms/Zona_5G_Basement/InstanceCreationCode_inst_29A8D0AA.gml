@@ -1,0 +1,1 @@
+miniTexto="La información del pendrive ha permitido abrir la puerta de la palanca ¡ve por ella!"

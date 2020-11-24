@@ -1,3 +1,3 @@
 tpzone=Z_5G_Mission_Control_Room;
-tp_x=460;
-tp_y=610;
+tp_x=462;
+tp_y=573;

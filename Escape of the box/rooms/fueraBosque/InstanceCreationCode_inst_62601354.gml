@@ -1,0 +1,1 @@
+miniTexto="tranquilo no te haré daño, solo... tráeme una jeringa... ¡SÍ! una jeringa y me moveré. Asi que ve a buscarla";

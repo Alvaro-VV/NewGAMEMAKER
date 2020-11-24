@@ -12,7 +12,7 @@ if place_meeting(x,y,golpe)
 {
     alarm[0]=3;
 }
-vision(xorigen, yorigen, 200, 1.5);
+vision(xorigen, yorigen, 200, 1);
 golpeEnemy(20);
 if vida = 0
 {
