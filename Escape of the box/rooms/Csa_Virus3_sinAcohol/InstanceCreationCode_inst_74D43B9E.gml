@@ -1,3 +1,3 @@
 tpzone=ZonaVirus_Room;
-tp_x=653;
-tp_y=600;
+tp_x=880;
+tp_y=453;

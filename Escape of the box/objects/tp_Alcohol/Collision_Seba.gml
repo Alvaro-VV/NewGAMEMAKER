@@ -1,12 +1,12 @@
 if(global.alcoholGel==true)
 {
 	room_goto(Csa_Virus3);
-	Seba.x=314;
-	Seba.y=437;
+	Seba.x=448;
+	Seba.y=544;
 }
 else
 {
 	room_goto(Csa_Virus3_sinAcohol);
-	Seba.x=314;
-	Seba.y=437;
+	Seba.x=448;
+	Seba.y=544;
 }

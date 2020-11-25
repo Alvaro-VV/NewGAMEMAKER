@@ -1,10 +1,7 @@
 {
-  "spriteId": {
-    "name": "Sprite33",
-    "path": "sprites/Sprite33/Sprite33.yy",
-  },
+  "spriteId": null,
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -21,16 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Seba","path":"objects/Seba/Seba.yy",},"parent":{"name":"tp_AlcoholGel","path":"objects/tp_AlcoholGel/tp_AlcoholGel.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"controladoJEFE","path":"objects/controladoJEFE/controladoJEFE.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "tp_conObjetos",
-    "path": "folders/Objetos/Teletransporte/tp_conObjetos.yy",
+    "name": "controladores",
+    "path": "folders/Objetos/controladores.yy",
   },
   "resourceVersion": "1.0",
-  "name": "tp_AlcoholGel",
+  "name": "controladoJEFE",
   "tags": [],
   "resourceType": "GMObject",
 }
